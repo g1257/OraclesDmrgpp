@@ -1,0 +1,31 @@
+TotalNumberOfSites=36
+NumberOfTerms=1
+DegreesOfFreedom=1
+GeometryKind=ladder
+GeometryOptions=ConstantValues
+Connectors 1 1.0
+Connectors 1 1.0
+LadderLeg=6
+IsPeriodicY=1
+
+hubbardU	36   8.0 8.0 8.0 8.0 8.0 8.0 8.0 8.0 8.0 8.0 8.0 8.0
+                     8.0 8.0 8.0 8.0 8.0 8.0 8.0 8.0 8.0 8.0 8.0 8.0
+		     8.0 8.0 8.0 8.0 8.0 8.0 8.0 8.0 8.0 8.0 8.0 8.0
+
+potentialV      72   0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+                     0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+		     0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+                     0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+                     0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+                     0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
+Model=HubbardOneBand
+SolverOptions=MatrixVectorKron,useSvd,wftInPatches
+Version=264e71039cc5a47c6f1f375f2f9baaffd94e94fa
+OutputFile=data6x6.txt
+InfiniteLoopKeptStates=100
+FiniteLoops 3
+17 1200 0
+-34 1400 0 34 1400 0
+TargetElectronsUp=14
+TargetElectronsDown=14
+Threads=16

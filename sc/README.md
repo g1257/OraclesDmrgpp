@@ -1,0 +1,1 @@
+sc stands for supercomputing
