@@ -1,0 +1,1451 @@
+Copyright (c) 2009-2016-2018, UT-Battelle, LLC
+All rights reserved
+
+[DMRG++, Version 5.]
+
+---------------------------------------------------------
+THE SOFTWARE IS SUPPLIED BY THE COPYRIGHT HOLDERS AND
+CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE ARE DISCLAIMED.
+
+Please see full open source license included in file LICENSE.
+---------------------------------------------------------
+
+DMRG++ version 5.21
+PsimagLite version 2.21
+DMRG++[38;5;124m [features 5.21] [0m
+JzSymmetry=0
+DiskStack [0]: Read from file data1950.hd5 succeeded
+DiskStack [0]: Read from file data1950.hd5 succeeded
+Checkpoint [0]: Loading sys. and env. stacks from disk...
+WaveFunctionTransfLocal [0]: Constructing Local
+Thu Jun 28 10:04:39 2018
+Hostname: node015
+RunID=922337203337661427246
+UnixTimeStart=1530194679
+DmrgSolver [0]: Turning the engine on
+DmrgSolver [0]: Finite loop number 0 with l=2 keptStates=150. 12 more loops to go.
+addHamiltonianConnection [0]: starting clock
+addHamiltonianConnection [1]: stopping clock
+LeftRightSuper [1]: finite: left-block basis=1600, right-block basis=256 sites=4+2
+SymmetryElectronsSz: Integer target quantum numbers are: 4 8 2 2 
+WaveFunctionTransf [1]: Window open, ready to transform vectors
+Diag. [1]: Setting up Hamiltonian basis of size=409600
+WaveFunctionTransfLocal [1]:  Destination sectors 1 Source sectors 1
+WaveFunctionTransf [2]: Transformation completed 
+Diag. [2]: About to diag. sector with quantum numbs. 4 8 2 2  quantumSector=36716
+Diag. [2]: Early exit due to user requesting (fast) WFT only, (non updated) energy= -16
+Diag. [2]: Ground state energy= -16
+Diag. [2]: Found targetted symmetry sector in partition 387 of size=3222
+Diag. [2]: Norm of vector is 1 and quantum numbers are 4 8 2 2 
+Diag. [2]: Number of Sectors found 1
+ApplyOperatorExpression [2]: Evolving, stage=Applying operator for the first time site=3 loopNumber=0 Eg=-16
+ApplyOperatorExpression [2]: I'm applying a local operator now
+ApplyOperatorExpression [2]: EnergyForExp was not provided explicitly,  value= -16
+ModelCommon [2]: LinkProductStructSize=4
+KronMatrix [2]: KronMatrix: Hamiltonian sizes=3222 3222 loadBalance false
+LanczosSolver [2]: Constructing... mat.rank=3222 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [2]: lotaMemory_=true
+LanczosSolver [2]: Decomposition done for mat.rank=3222 after 36 steps, actual eps=4.88498e-13
+-------------&*&*&* In-situ measurements start
+ALL OPERATORS HAVE BEEN APPLIED
+-------------&*&*&* In-situ measurements end
+ModelCommon [2]: LinkProductStructSize=4
+KronMatrix [2]: KronMatrix: Hamiltonian sizes=3222 3222 loadBalance false
+TargetingTimeStep [2]: Hamiltonian average at time=0 for target=0 sector=387 <phi(t)|H|phi(t)>=-3.15556 <phi(t)|phi(t)>=1 -3.15556
+ModelCommon [2]: LinkProductStructSize=4
+KronMatrix [2]: KronMatrix: Hamiltonian sizes=3222 3222 loadBalance false
+TargetingTimeStep [2]: Hamiltonian average at time=0 for target=1 sector=387 <phi(t)|H|phi(t)>=-2.02292 <phi(t)|phi(t)>=0.534948 -3.78153
+ModelCommon [2]: LinkProductStructSize=4
+KronMatrix [2]: KronMatrix: Hamiltonian sizes=3222 3222 loadBalance false
+TargetingTimeStep [2]: Hamiltonian average at time=0 for target=2 sector=387 <phi(t)|H|phi(t)>=-1.23588 <phi(t)|phi(t)>=0.293708 -4.20786
+ModelCommon [3]: LinkProductStructSize=4
+KronMatrix [3]: KronMatrix: Hamiltonian sizes=3222 3222 loadBalance false
+TargetingTimeStep [3]: Hamiltonian average at time=0 for target=3 sector=387 <phi(t)|H|phi(t)>=-0.738804 <phi(t)|phi(t)>=0.164144 -4.50094
+ModelCommon [3]: LinkProductStructSize=4
+KronMatrix [3]: KronMatrix: Hamiltonian sizes=3222 3222 loadBalance false
+TargetingTimeStep [3]: Hamiltonian average at time=0 for target=4 sector=387 <phi(t)|H|phi(t)>=-0.437412 <phi(t)|phi(t)>=0.0928776 -4.70956
+TargetingTimeStep [3]: gsWeight=0.1 weights= 0.257143 0.128571 0.128571 0.128571 0.257143 
+TargetingTimeStep [3]: gsNorm=1 norms= 1 1 1 1 1 
+WaveFunctionTransf [3]: Window closed, no more transformations, please
+Truncation [3]: for Environment
+DensityMatrixLocal [3]: Init partition for all targets
+DensityMatrixLocal [3]: Done with init partition
+Truncation [3]: Not changing kept states=150
+Discarded weight (Truncation error): 4.60508e-15
+Truncation [3]: EntropyVonNeumann= 1.79115; ReyniIndex= 2 EntropyReyni=1.56515
+Truncation [3]: done with entanglement
+Truncation [3]: Truncating transform...
+pSprime [3]: Truncating indices...
+pSprime [3]: Done with changeBasis
+WaveFunctionTransf [3]: OK, pushing option=2 and stage=2
+Truncation [3]: new size of basis=150 transform is 1600 x 150 with 135 symmetry blocks
+DmrgSolver [3]: Current virtual memory is 196684 kB maximum was 275840 kB
+addHamiltonianConnection [3]: starting clock
+addHamiltonianConnection [3]: stopping clock
+LeftRightSuper [3]: finite: left-block basis=2400, right-block basis=16 sites=5+1
+SymmetryElectronsSz: Integer target quantum numbers are: 4 8 2 2 
+WaveFunctionTransf [3]: Window open, ready to transform vectors
+Diag. [3]: Setting up Hamiltonian basis of size=38400
+WaveFunctionTransfLocal [3]:  Destination sectors 1 Source sectors 1
+WaveFunctionTransf [3]: Transformation completed 
+Diag. [3]: About to diag. sector with quantum numbs. 4 8 2 2  quantumSector=36716
+Diag. [3]: Early exit due to user requesting (fast) WFT only, (non updated) energy= -16
+Diag. [3]: Ground state energy= -16
+Diag. [3]: Found targetted symmetry sector in partition 264 of size=736
+Diag. [3]: Norm of vector is 1 and quantum numbers are 4 8 2 2 
+Diag. [3]: Number of Sectors found 1
+ApplyOperatorExpression [3]: Evolving, stage=WFT_NOADVANCE site=4 loopNumber=0 Eg=-16
+ApplyOperatorExpression [3]: I'm calling the WFT now
+VectorWithOffset [3]: populateFromQns succeeded
+WaveFunctionTransfLocal [3]:  Destination sectors 1 Source sectors 1
+WaveFunctionTransf [3]: Transformation completed 
+ApplyOperatorExpression [3]: EnergyForExp was not provided explicitly,  value= -16
+ModelCommon [3]: LinkProductStructSize=4
+KronMatrix [3]: KronMatrix: Hamiltonian sizes=736 736 loadBalance false
+LanczosSolver [3]: Constructing... mat.rank=736 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [3]: lotaMemory_=true
+LanczosSolver [3]: Decomposition done for mat.rank=736 after 112 steps, actual eps=7.60281e-13
+-------------&*&*&* In-situ measurements start
+ALL OPERATORS HAVE BEEN APPLIED
+-------------&*&*&* In-situ measurements end
+ModelCommon [3]: LinkProductStructSize=4
+KronMatrix [3]: KronMatrix: Hamiltonian sizes=736 736 loadBalance false
+TargetingTimeStep [3]: Hamiltonian average at time=0 for target=0 sector=264 <phi(t)|H|phi(t)>=0.133333 <phi(t)|phi(t)>=1 0.133333
+ModelCommon [3]: LinkProductStructSize=4
+KronMatrix [3]: KronMatrix: Hamiltonian sizes=736 736 loadBalance false
+TargetingTimeStep [3]: Hamiltonian average at time=0 for target=1 sector=264 <phi(t)|H|phi(t)>=-0.607271 <phi(t)|phi(t)>=0.463735 -1.30952
+ModelCommon [3]: LinkProductStructSize=4
+KronMatrix [3]: KronMatrix: Hamiltonian sizes=736 736 loadBalance false
+TargetingTimeStep [4]: Hamiltonian average at time=0 for target=2 sector=264 <phi(t)|H|phi(t)>=-0.530488 <phi(t)|phi(t)>=0.228538 -2.32123
+ModelCommon [4]: LinkProductStructSize=4
+KronMatrix [4]: KronMatrix: Hamiltonian sizes=736 736 loadBalance false
+TargetingTimeStep [4]: Hamiltonian average at time=0 for target=3 sector=264 <phi(t)|H|phi(t)>=-0.352318 <phi(t)|phi(t)>=0.117436 -3.00009
+ModelCommon [4]: LinkProductStructSize=4
+KronMatrix [4]: KronMatrix: Hamiltonian sizes=736 736 loadBalance false
+TargetingTimeStep [4]: Hamiltonian average at time=0 for target=4 sector=264 <phi(t)|H|phi(t)>=-0.214065 <phi(t)|phi(t)>=0.062048 -3.44999
+TargetingTimeStep [4]: gsWeight=0.1 weights= 0.257143 0.128571 0.128571 0.128571 0.257143 
+TargetingTimeStep [4]: gsNorm=1 norms= 1 1 1 1 1 
+WaveFunctionTransf [4]: Window closed, no more transformations, please
+Truncation [4]: for Environment
+DensityMatrixLocal [4]: Init partition for all targets
+DensityMatrixLocal [4]: Done with init partition
+Truncation [4]: Not changing kept states=150
+Discarded weight (Truncation error): 2.0401e-15
+Truncation [4]: EntropyVonNeumann= 1.3337; ReyniIndex= 2 EntropyReyni=1.16078
+Truncation [4]: done with entanglement
+Truncation [4]: Truncating transform...
+pSprime [4]: Truncating indices...
+pSprime [4]: Done with changeBasis
+WaveFunctionTransf [4]: OK, pushing option=2 and stage=2
+Truncation [4]: new size of basis=150 transform is 2400 x 150 with 196 symmetry blocks
+DmrgSolver [4]: Finite loop number 1 with l=-2 keptStates=150. 11 more loops to go.
+addHamiltonianConnection [4]: starting clock
+addHamiltonianConnection [4]: stopping clock
+LeftRightSuper [4]: finite: left-block basis=1600, right-block basis=256 sites=4+2
+SymmetryElectronsSz: Integer target quantum numbers are: 4 8 2 2 
+WaveFunctionTransf [4]: Window open, ready to transform vectors
+Diag. [4]: Setting up Hamiltonian basis of size=409600
+WaveFunctionTransfLocal [4]:  We're bouncing on the right, so buckle up!
+WaveFunctionTransf [4]: Transformation completed 
+Diag. [4]: About to diag. sector with quantum numbs. 4 8 2 2  quantumSector=36716
+Diag. [4]: Early exit due to user requesting (fast) WFT only, (non updated) energy= -16
+Diag. [4]: Ground state energy= -16
+Diag. [4]: Found targetted symmetry sector in partition 387 of size=3222
+Diag. [4]: Norm of vector is 1 and quantum numbers are 4 8 2 2 
+Diag. [4]: Number of Sectors found 1
+ApplyOperatorExpression [4]: Evolving, stage=WFT_NOADVANCE site=4 loopNumber=1 Eg=-16
+ApplyOperatorExpression [4]: I'm calling the WFT now
+VectorWithOffset [4]: populateFromQns succeeded
+WaveFunctionTransfLocal [4]:  We're bouncing on the right, so buckle up!
+WaveFunctionTransf [4]: Transformation completed 
+ApplyOperatorExpression [4]: EnergyForExp was not provided explicitly,  value= -16
+ModelCommon [4]: LinkProductStructSize=4
+KronMatrix [4]: KronMatrix: Hamiltonian sizes=3222 3222 loadBalance false
+LanczosSolver [4]: Constructing... mat.rank=3222 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [4]: lotaMemory_=true
+LanczosSolver [4]: Decomposition done for mat.rank=3222 after 45 steps, actual eps=3.43725e-13
+-------------&*&*&* In-situ measurements start
+ALL OPERATORS HAVE BEEN APPLIED
+-------------&*&*&* In-situ measurements end
+ModelCommon [4]: LinkProductStructSize=4
+KronMatrix [4]: KronMatrix: Hamiltonian sizes=3222 3222 loadBalance false
+TargetingTimeStep [4]: Hamiltonian average at time=0 for target=0 sector=387 <phi(t)|H|phi(t)>=0.133333 <phi(t)|phi(t)>=1 0.133333
+ModelCommon [4]: LinkProductStructSize=4
+KronMatrix [4]: KronMatrix: Hamiltonian sizes=3222 3222 loadBalance false
+TargetingTimeStep [4]: Hamiltonian average at time=0 for target=1 sector=387 <phi(t)|H|phi(t)>=-0.608282 <phi(t)|phi(t)>=0.463686 -1.31184
+ModelCommon [4]: LinkProductStructSize=4
+KronMatrix [4]: KronMatrix: Hamiltonian sizes=3222 3222 loadBalance false
+TargetingTimeStep [4]: Hamiltonian average at time=0 for target=2 sector=387 <phi(t)|H|phi(t)>=-0.530652 <phi(t)|phi(t)>=0.22853 -2.32203
+ModelCommon [4]: LinkProductStructSize=4
+KronMatrix [4]: KronMatrix: Hamiltonian sizes=3222 3222 loadBalance false
+TargetingTimeStep [4]: Hamiltonian average at time=0 for target=3 sector=387 <phi(t)|H|phi(t)>=-0.352344 <phi(t)|phi(t)>=0.117434 -3.00035
+ModelCommon [4]: LinkProductStructSize=4
+KronMatrix [4]: KronMatrix: Hamiltonian sizes=3222 3222 loadBalance false
+TargetingTimeStep [4]: Hamiltonian average at time=0 for target=4 sector=387 <phi(t)|H|phi(t)>=-0.214069 <phi(t)|phi(t)>=0.0620477 -3.45008
+TargetingTimeStep [4]: gsWeight=0.1 weights= 0.257143 0.128571 0.128571 0.128571 0.257143 
+TargetingTimeStep [4]: gsNorm=1 norms= 1 1 1 1 1 
+WaveFunctionTransf [4]: Window closed, no more transformations, please
+Truncation [4]: for System
+DensityMatrixLocal [4]: Init partition for all targets
+DensityMatrixLocal [4]: Done with init partition
+Truncation [4]: Not changing kept states=150
+Discarded weight (Truncation error): 1.04327e-13
+Truncation [4]: EntropyVonNeumann= 1.76409; ReyniIndex= 2 EntropyReyni=1.58526
+Truncation [4]: done with entanglement
+Truncation [4]: Truncating transform...
+DiskStackenviron/2 [4]: Truncating indices...
+DiskStackenviron/2 [4]: Done with changeBasis
+WaveFunctionTransf [4]: OK, pushing option=1 and stage=1
+Truncation [4]: new size of basis=150 transform is 256 x 150 with 81 blocks
+DmrgSolver [4]: Current virtual memory is 201188 kB maximum was 275840 kB
+addHamiltonianConnection [4]: starting clock
+addHamiltonianConnection [4]: stopping clock
+LeftRightSuper [4]: finite: left-block basis=1600, right-block basis=2400 sites=3+3
+SymmetryElectronsSz: Integer target quantum numbers are: 4 8 2 2 
+WaveFunctionTransf [5]: Window open, ready to transform vectors
+Diag. [5]: Setting up Hamiltonian basis of size=3840000
+WaveFunctionTransf [5]: Transformation completed 
+Diag. [5]: About to diag. sector with quantum numbs. 4 8 2 2  quantumSector=36716
+Diag. [5]: Early exit due to user requesting (fast) WFT only, (non updated) energy= -16
+Diag. [5]: Ground state energy= -16
+Diag. [5]: Found targetted symmetry sector in partition 677 of size=19089
+Diag. [5]: Norm of vector is 1 and quantum numbers are 4 8 2 2 
+Diag. [5]: Number of Sectors found 1
+ApplyOperatorExpression [5]: Evolving, stage=WFT_NOADVANCE site=3 loopNumber=1 Eg=-16
+ApplyOperatorExpression [5]: I'm calling the WFT now
+VectorWithOffset [5]: populateFromQns succeeded
+WaveFunctionTransf [6]: Transformation completed 
+ApplyOperatorExpression [6]: EnergyForExp was not provided explicitly,  value= -16
+ModelCommon [6]: LinkProductStructSize=4
+KronMatrix [6]: KronMatrix: Hamiltonian sizes=19089 19089 loadBalance false
+LanczosSolver [6]: Constructing... mat.rank=19089 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [7]: lotaMemory_=true
+LanczosSolver [7]: Decomposition done for mat.rank=19089 after 144 steps, actual eps=6.31495e-13
+-------------&*&*&* In-situ measurements start
+ALL OPERATORS HAVE BEEN APPLIED
+-------------&*&*&* In-situ measurements end
+ModelCommon [10]: LinkProductStructSize=4
+KronMatrix [10]: KronMatrix: Hamiltonian sizes=19089 19089 loadBalance false
+TargetingTimeStep [10]: Hamiltonian average at time=0 for target=0 sector=677 <phi(t)|H|phi(t)>=0.133333 <phi(t)|phi(t)>=1 0.133333
+ModelCommon [10]: LinkProductStructSize=4
+KronMatrix [10]: KronMatrix: Hamiltonian sizes=19089 19089 loadBalance false
+TargetingTimeStep [10]: Hamiltonian average at time=0 for target=1 sector=677 <phi(t)|H|phi(t)>=-0.629311 <phi(t)|phi(t)>=0.464205 -1.35567
+ModelCommon [10]: LinkProductStructSize=4
+KronMatrix [10]: KronMatrix: Hamiltonian sizes=19089 19089 loadBalance false
+TargetingTimeStep [10]: Hamiltonian average at time=0 for target=2 sector=677 <phi(t)|H|phi(t)>=-0.551546 <phi(t)|phi(t)>=0.229508 -2.40316
+ModelCommon [10]: LinkProductStructSize=4
+KronMatrix [10]: KronMatrix: Hamiltonian sizes=19089 19089 loadBalance false
+TargetingTimeStep [10]: Hamiltonian average at time=0 for target=3 sector=677 <phi(t)|H|phi(t)>=-0.368827 <phi(t)|phi(t)>=0.118511 -3.11218
+ModelCommon [10]: LinkProductStructSize=4
+KronMatrix [10]: KronMatrix: Hamiltonian sizes=19089 19089 loadBalance false
+TargetingTimeStep [10]: Hamiltonian average at time=0 for target=4 sector=677 <phi(t)|H|phi(t)>=-0.226019 <phi(t)|phi(t)>=0.0630085 -3.58712
+TargetingTimeStep [10]: gsWeight=0.1 weights= 0.257143 0.128571 0.128571 0.128571 0.257143 
+TargetingTimeStep [10]: gsNorm=1 norms= 1 1 1 1 1 
+WaveFunctionTransf [11]: Window closed, no more transformations, please
+Truncation [11]: for System
+DensityMatrixLocal [11]: Init partition for all targets
+DensityMatrixLocal [12]: Done with init partition
+Truncation [12]: Not changing kept states=150
+Discarded weight (Truncation error): 2.21347e-11
+Truncation [12]: EntropyVonNeumann= 1.9499; ReyniIndex= 2 EntropyReyni=1.62007
+Truncation [13]: done with entanglement
+Truncation [13]: Truncating transform...
+DiskStackenviron/2 [13]: Truncating indices...
+DiskStackenviron/2 [13]: Done with changeBasis
+WaveFunctionTransf [13]: OK, pushing option=1 and stage=1
+Truncation [13]: new size of basis=150 transform is 2400 x 150 with 217 blocks
+DmrgSolver [13]: Finite loop number 2 with l=-2 keptStates=150. 10 more loops to go.
+addHamiltonianConnection [13]: starting clock
+addHamiltonianConnection [13]: stopping clock
+LeftRightSuper [13]: finite: left-block basis=256, right-block basis=2400 sites=2+4
+SymmetryElectronsSz: Integer target quantum numbers are: 4 8 2 2 
+WaveFunctionTransf [13]: Window open, ready to transform vectors
+Diag. [13]: Setting up Hamiltonian basis of size=614400
+WaveFunctionTransf [13]: Transformation completed 
+Diag. [13]: About to diag. sector with quantum numbs. 4 8 2 2  quantumSector=36716
+Diag. [13]: Early exit due to user requesting (fast) WFT only, (non updated) energy= -16
+Diag. [13]: Ground state energy= -16
+Diag. [13]: Found targetted symmetry sector in partition 452 of size=5638
+Diag. [13]: Norm of vector is 1 and quantum numbers are 4 8 2 2 
+Diag. [13]: Number of Sectors found 1
+ApplyOperatorExpression [13]: Evolving, stage=WFT_NOADVANCE site=2 loopNumber=2 Eg=-16
+ApplyOperatorExpression [13]: I'm calling the WFT now
+VectorWithOffset [13]: populateFromQns succeeded
+WaveFunctionTransf [14]: Transformation completed 
+ApplyOperatorExpression [14]: EnergyForExp was not provided explicitly,  value= -16
+ModelCommon [14]: LinkProductStructSize=4
+KronMatrix [14]: KronMatrix: Hamiltonian sizes=5638 5638 loadBalance false
+LanczosSolver [14]: Constructing... mat.rank=5638 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [14]: lotaMemory_=true
+LanczosSolver [14]: Decomposition done for mat.rank=5638 after 76 steps, actual eps=6.03961e-13
+-------------&*&*&* In-situ measurements start
+ALL OPERATORS HAVE BEEN APPLIED
+-------------&*&*&* In-situ measurements end
+ModelCommon [15]: LinkProductStructSize=4
+KronMatrix [15]: KronMatrix: Hamiltonian sizes=5638 5638 loadBalance false
+TargetingTimeStep [15]: Hamiltonian average at time=0 for target=0 sector=452 <phi(t)|H|phi(t)>=3.37778 <phi(t)|phi(t)>=1 3.37778
+ModelCommon [15]: LinkProductStructSize=4
+KronMatrix [15]: KronMatrix: Hamiltonian sizes=5638 5638 loadBalance false
+TargetingTimeStep [15]: Hamiltonian average at time=0 for target=1 sector=452 <phi(t)|H|phi(t)>=0.677573 <phi(t)|phi(t)>=0.396304 1.70973
+ModelCommon [15]: LinkProductStructSize=4
+KronMatrix [15]: KronMatrix: Hamiltonian sizes=5638 5638 loadBalance false
+TargetingTimeStep [15]: Hamiltonian average at time=0 for target=2 sector=452 <phi(t)|H|phi(t)>=0.0730832 <phi(t)|phi(t)>=0.169056 0.432303
+ModelCommon [15]: LinkProductStructSize=4
+KronMatrix [15]: KronMatrix: Hamiltonian sizes=5638 5638 loadBalance false
+TargetingTimeStep [15]: Hamiltonian average at time=0 for target=3 sector=452 <phi(t)|H|phi(t)>=-0.0374924 <phi(t)|phi(t)>=0.0761761 -0.49218
+ModelCommon [15]: LinkProductStructSize=4
+KronMatrix [15]: KronMatrix: Hamiltonian sizes=5638 5638 loadBalance false
+TargetingTimeStep [15]: Hamiltonian average at time=0 for target=4 sector=452 <phi(t)|H|phi(t)>=-0.0407365 <phi(t)|phi(t)>=0.0356895 -1.14141
+TargetingTimeStep [15]: gsWeight=0.1 weights= 0.257143 0.128571 0.128571 0.128571 0.257143 
+TargetingTimeStep [15]: gsNorm=1 norms= 1 1 1 1 1 
+WaveFunctionTransf [15]: Window closed, no more transformations, please
+Truncation [15]: for System
+DensityMatrixLocal [15]: Init partition for all targets
+DensityMatrixLocal [15]: Done with init partition
+Truncation [15]: Not changing kept states=150
+Discarded weight (Truncation error): 2.7488e-11
+Truncation [15]: EntropyVonNeumann= 1.90199; ReyniIndex= 2 EntropyReyni=1.60222
+Truncation [15]: done with entanglement
+Truncation [15]: Truncating transform...
+DiskStackenviron/2 [15]: Truncating indices...
+DiskStackenviron/2 [15]: Done with changeBasis
+WaveFunctionTransf [16]: OK, pushing option=1 and stage=1
+Truncation [16]: new size of basis=150 transform is 2400 x 150 with 196 blocks
+DmrgSolver [16]: Current virtual memory is 294356 kB maximum was 318980 kB
+addHamiltonianConnection [16]: starting clock
+addHamiltonianConnection [16]: stopping clock
+LeftRightSuper [16]: finite: left-block basis=16, right-block basis=2400 sites=1+5
+SymmetryElectronsSz: Integer target quantum numbers are: 4 8 2 2 
+WaveFunctionTransf [16]: Window open, ready to transform vectors
+Diag. [16]: Setting up Hamiltonian basis of size=38400
+WaveFunctionTransf [16]: Transformation completed 
+Diag. [16]: About to diag. sector with quantum numbs. 4 8 2 2  quantumSector=36716
+Diag. [16]: Early exit due to user requesting (fast) WFT only, (non updated) energy= -16
+Diag. [16]: Ground state energy= -16
+Diag. [16]: Found targetted symmetry sector in partition 264 of size=698
+Diag. [16]: Norm of vector is 1 and quantum numbers are 4 8 2 2 
+Diag. [16]: Number of Sectors found 1
+ApplyOperatorExpression [16]: Evolving, stage=WFT_NOADVANCE site=1 loopNumber=2 Eg=-16
+ApplyOperatorExpression [16]: I'm calling the WFT now
+VectorWithOffset [16]: populateFromQns succeeded
+WaveFunctionTransf [16]: Transformation completed 
+ApplyOperatorExpression [16]: EnergyForExp was not provided explicitly,  value= -16
+ModelCommon [16]: LinkProductStructSize=4
+KronMatrix [16]: KronMatrix: Hamiltonian sizes=698 698 loadBalance false
+LanczosSolver [16]: Constructing... mat.rank=698 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [16]: lotaMemory_=true
+LanczosSolver [16]: Decomposition done for mat.rank=698 after 79 steps, actual eps=8.18456e-13
+-------------&*&*&* In-situ measurements start
+ALL OPERATORS HAVE BEEN APPLIED
+-------------&*&*&* In-situ measurements end
+ModelCommon [16]: LinkProductStructSize=4
+KronMatrix [16]: KronMatrix: Hamiltonian sizes=698 698 loadBalance false
+TargetingTimeStep [16]: Hamiltonian average at time=0 for target=0 sector=264 <phi(t)|H|phi(t)>=6.66667 <phi(t)|phi(t)>=1 6.66667
+ModelCommon [16]: LinkProductStructSize=4
+KronMatrix [16]: KronMatrix: Hamiltonian sizes=698 698 loadBalance false
+TargetingTimeStep [16]: Hamiltonian average at time=0 for target=1 sector=264 <phi(t)|H|phi(t)>=1.59668 <phi(t)|phi(t)>=0.338325 4.71936
+ModelCommon [16]: LinkProductStructSize=4
+KronMatrix [16]: KronMatrix: Hamiltonian sizes=698 698 loadBalance false
+TargetingTimeStep [16]: Hamiltonian average at time=0 for target=2 sector=264 <phi(t)|H|phi(t)>=0.381954 <phi(t)|phi(t)>=0.125362 3.04681
+ModelCommon [16]: LinkProductStructSize=4
+KronMatrix [16]: KronMatrix: Hamiltonian sizes=698 698 loadBalance false
+TargetingTimeStep [16]: Hamiltonian average at time=0 for target=3 sector=264 <phi(t)|H|phi(t)>=0.0861481 <phi(t)|phi(t)>=0.0500745 1.7204
+ModelCommon [16]: LinkProductStructSize=4
+KronMatrix [16]: KronMatrix: Hamiltonian sizes=698 698 loadBalance false
+TargetingTimeStep [16]: Hamiltonian average at time=0 for target=4 sector=264 <phi(t)|H|phi(t)>=0.0155616 <phi(t)|phi(t)>=0.0211886 0.734432
+TargetingTimeStep [16]: gsWeight=0.1 weights= 0.257143 0.128571 0.128571 0.128571 0.257143 
+TargetingTimeStep [16]: gsNorm=1 norms= 1 1 1 1 1 
+WaveFunctionTransf [16]: Window closed, no more transformations, please
+Truncation [16]: for System
+DensityMatrixLocal [16]: Init partition for all targets
+DensityMatrixLocal [16]: Done with init partition
+Truncation [16]: Not changing kept states=150
+Discarded weight (Truncation error): 2.91459e-15
+Truncation [16]: EntropyVonNeumann= 1.43913; ReyniIndex= 2 EntropyReyni=1.27169
+Truncation [16]: done with entanglement
+Truncation [16]: Truncating transform...
+DiskStackenviron/2 [16]: Truncating indices...
+DiskStackenviron/2 [16]: Done with changeBasis
+WaveFunctionTransf [16]: OK, pushing option=1 and stage=1
+Truncation [16]: new size of basis=150 transform is 2400 x 150 with 196 blocks
+DmrgSolver [16]: Finite loop number 3 with l=2 keptStates=150. 9 more loops to go.
+addHamiltonianConnection [16]: starting clock
+addHamiltonianConnection [16]: stopping clock
+LeftRightSuper [16]: finite: left-block basis=256, right-block basis=2400 sites=2+4
+SymmetryElectronsSz: Integer target quantum numbers are: 4 8 2 2 
+WaveFunctionTransf [16]: Window open, ready to transform vectors
+Diag. [16]: Setting up Hamiltonian basis of size=614400
+WaveFunctionTransfLocal [16]:  We're bouncing on the left, so buckle up!
+WaveFunctionTransf [16]: Transformation completed 
+Diag. [16]: About to diag. sector with quantum numbs. 4 8 2 2  quantumSector=36716
+Diag. [16]: Early exit due to user requesting (fast) WFT only, (non updated) energy= -16
+Diag. [16]: Ground state energy= -16
+Diag. [16]: Found targetted symmetry sector in partition 452 of size=5638
+Diag. [16]: Norm of vector is 1 and quantum numbers are 4 8 2 2 
+Diag. [16]: Number of Sectors found 1
+ApplyOperatorExpression [16]: Steps without advance: 1 site=1 currenTime=0
+ApplyOperatorExpression [16]: Evolving, stage=WFT_NOADVANCE site=1 loopNumber=3 Eg=-16
+ApplyOperatorExpression [16]: I'm calling the WFT now
+VectorWithOffset [16]: populateFromQns succeeded
+WaveFunctionTransfLocal [16]:  We're bouncing on the left, so buckle up!
+WaveFunctionTransf [16]: Transformation completed 
+ApplyOperatorExpression [16]: EnergyForExp was not provided explicitly,  value= -16
+ModelCommon [16]: LinkProductStructSize=4
+KronMatrix [16]: KronMatrix: Hamiltonian sizes=5638 5638 loadBalance false
+LanczosSolver [16]: Constructing... mat.rank=5638 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [17]: lotaMemory_=true
+LanczosSolver [17]: Decomposition done for mat.rank=5638 after 83 steps, actual eps=6.91891e-13
+-------------&*&*&* In-situ measurements start
+ALL OPERATORS HAVE BEEN APPLIED
+-------------&*&*&* In-situ measurements end
+ModelCommon [17]: LinkProductStructSize=4
+KronMatrix [17]: KronMatrix: Hamiltonian sizes=5638 5638 loadBalance false
+TargetingTimeStep [17]: Hamiltonian average at time=0 for target=0 sector=452 <phi(t)|H|phi(t)>=6.66667 <phi(t)|phi(t)>=1 6.66667
+ModelCommon [17]: LinkProductStructSize=4
+KronMatrix [17]: KronMatrix: Hamiltonian sizes=5638 5638 loadBalance false
+TargetingTimeStep [17]: Hamiltonian average at time=0 for target=1 sector=452 <phi(t)|H|phi(t)>=1.59668 <phi(t)|phi(t)>=0.338325 4.71936
+ModelCommon [17]: LinkProductStructSize=4
+KronMatrix [17]: KronMatrix: Hamiltonian sizes=5638 5638 loadBalance false
+TargetingTimeStep [17]: Hamiltonian average at time=0 for target=2 sector=452 <phi(t)|H|phi(t)>=0.381954 <phi(t)|phi(t)>=0.125362 3.04681
+ModelCommon [17]: LinkProductStructSize=4
+KronMatrix [17]: KronMatrix: Hamiltonian sizes=5638 5638 loadBalance false
+TargetingTimeStep [17]: Hamiltonian average at time=0 for target=3 sector=452 <phi(t)|H|phi(t)>=0.0861477 <phi(t)|phi(t)>=0.0500745 1.72039
+ModelCommon [17]: LinkProductStructSize=4
+KronMatrix [17]: KronMatrix: Hamiltonian sizes=5638 5638 loadBalance false
+TargetingTimeStep [17]: Hamiltonian average at time=0 for target=4 sector=452 <phi(t)|H|phi(t)>=0.0155611 <phi(t)|phi(t)>=0.0211886 0.734408
+TargetingTimeStep [17]: gsWeight=0.1 weights= 0.257143 0.128571 0.128571 0.128571 0.257143 
+TargetingTimeStep [17]: gsNorm=1 norms= 1 1 1 1 1 
+WaveFunctionTransf [17]: Window closed, no more transformations, please
+Truncation [17]: for Environment
+DensityMatrixLocal [17]: Init partition for all targets
+DensityMatrixLocal [18]: Done with init partition
+Truncation [18]: Not changing kept states=150
+Discarded weight (Truncation error): 1.74569e-12
+Truncation [18]: EntropyVonNeumann= 1.81606; ReyniIndex= 2 EntropyReyni=1.61065
+Truncation [18]: done with entanglement
+Truncation [18]: Truncating transform...
+DiskStacksystem/2 [18]: Truncating indices...
+DiskStacksystem/2 [18]: Done with changeBasis
+WaveFunctionTransf [18]: OK, pushing option=2 and stage=2
+Truncation [18]: new size of basis=150 transform is 256 x 150 with 81 symmetry blocks
+DmrgSolver [18]: Current virtual memory is 294356 kB maximum was 318980 kB
+addHamiltonianConnection [18]: starting clock
+addHamiltonianConnection [18]: stopping clock
+LeftRightSuper [18]: finite: left-block basis=2400, right-block basis=2400 sites=3+3
+SymmetryElectronsSz: Integer target quantum numbers are: 4 8 2 2 
+WaveFunctionTransf [18]: Window open, ready to transform vectors
+Diag. [18]: Setting up Hamiltonian basis of size=5760000
+WaveFunctionTransfLocal [18]:  Destination sectors 1 Source sectors 1
+WaveFunctionTransf [21]: Transformation completed 
+Diag. [21]: About to diag. sector with quantum numbs. 4 8 2 2  quantumSector=36716
+Diag. [21]: Early exit due to user requesting (fast) WFT only, (non updated) energy= -16
+Diag. [21]: Ground state energy= -16
+Diag. [21]: Found targetted symmetry sector in partition 708 of size=26617
+Diag. [21]: Norm of vector is 1 and quantum numbers are 4 8 2 2 
+Diag. [21]: Number of Sectors found 1
+ApplyOperatorExpression [21]: Steps without advance: 2 site=2 currenTime=0
+ApplyOperatorExpression [21]: Evolving, stage=WFT_NOADVANCE site=2 loopNumber=3 Eg=-16
+ApplyOperatorExpression [21]: I'm calling the WFT now
+VectorWithOffset [21]: populateFromQns succeeded
+WaveFunctionTransfLocal [21]:  Destination sectors 1 Source sectors 1
+WaveFunctionTransf [25]: Transformation completed 
+ApplyOperatorExpression [25]: EnergyForExp was not provided explicitly,  value= -16
+ModelCommon [25]: LinkProductStructSize=4
+KronMatrix [25]: KronMatrix: Hamiltonian sizes=26617 26617 loadBalance false
+LanczosSolver [25]: Constructing... mat.rank=26617 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [27]: lotaMemory_=true
+LanczosSolver [27]: Decomposition done for mat.rank=26617 after 200 steps, actual eps=0
+LanczosSolver [27]: WARNING: Maximum number of steps used. Increasing this maximum is recommended.
+-------------&*&*&* In-situ measurements start
+ALL OPERATORS HAVE BEEN APPLIED
+-------------&*&*&* In-situ measurements end
+ModelCommon [35]: LinkProductStructSize=4
+KronMatrix [35]: KronMatrix: Hamiltonian sizes=26617 26617 loadBalance false
+TargetingTimeStep [35]: Hamiltonian average at time=0 for target=0 sector=708 <phi(t)|H|phi(t)>=6.66667 <phi(t)|phi(t)>=1 6.66667
+ModelCommon [35]: LinkProductStructSize=4
+KronMatrix [35]: KronMatrix: Hamiltonian sizes=26617 26617 loadBalance false
+TargetingTimeStep [35]: Hamiltonian average at time=0 for target=1 sector=708 <phi(t)|H|phi(t)>=1.59668 <phi(t)|phi(t)>=0.338325 4.71936
+ModelCommon [35]: LinkProductStructSize=4
+KronMatrix [35]: KronMatrix: Hamiltonian sizes=26617 26617 loadBalance false
+TargetingTimeStep [35]: Hamiltonian average at time=0 for target=2 sector=708 <phi(t)|H|phi(t)>=0.381954 <phi(t)|phi(t)>=0.125362 3.0468
+ModelCommon [35]: LinkProductStructSize=4
+KronMatrix [35]: KronMatrix: Hamiltonian sizes=26617 26617 loadBalance false
+TargetingTimeStep [35]: Hamiltonian average at time=0 for target=3 sector=708 <phi(t)|H|phi(t)>=0.0861471 <phi(t)|phi(t)>=0.0500745 1.72038
+ModelCommon [35]: LinkProductStructSize=4
+KronMatrix [35]: KronMatrix: Hamiltonian sizes=26617 26617 loadBalance false
+TargetingTimeStep [35]: Hamiltonian average at time=0 for target=4 sector=708 <phi(t)|H|phi(t)>=0.0155603 <phi(t)|phi(t)>=0.0211886 0.734368
+TargetingTimeStep [35]: gsWeight=0.1 weights= 0.257143 0.128571 0.128571 0.128571 0.257143 
+TargetingTimeStep [35]: gsNorm=1 norms= 1 1 1 1 1 
+WaveFunctionTransf [35]: Window closed, no more transformations, please
+Truncation [35]: for Environment
+DensityMatrixLocal [35]: Init partition for all targets
+DensityMatrixLocal [42]: Done with init partition
+Truncation [42]: Not changing kept states=150
+Discarded weight (Truncation error): 3.73363e-10
+Truncation [42]: EntropyVonNeumann= 1.99521; ReyniIndex= 2 EntropyReyni=1.66259
+Truncation [42]: done with entanglement
+Truncation [42]: Truncating transform...
+DiskStacksystem/2 [42]: Truncating indices...
+DiskStacksystem/2 [42]: Done with changeBasis
+WaveFunctionTransf [42]: OK, pushing option=2 and stage=2
+Truncation [42]: new size of basis=150 transform is 2400 x 150 with 224 symmetry blocks
+DmrgSolver [42]: Finite loop number 4 with l=2 keptStates=150. 8 more loops to go.
+addHamiltonianConnection [42]: starting clock
+addHamiltonianConnection [42]: stopping clock
+LeftRightSuper [42]: finite: left-block basis=2400, right-block basis=256 sites=4+2
+SymmetryElectronsSz: Integer target quantum numbers are: 4 8 2 2 
+WaveFunctionTransf [42]: Window open, ready to transform vectors
+Diag. [42]: Setting up Hamiltonian basis of size=614400
+WaveFunctionTransfLocal [42]:  Destination sectors 1 Source sectors 1
+WaveFunctionTransf [46]: Transformation completed 
+Diag. [46]: About to diag. sector with quantum numbs. 4 8 2 2  quantumSector=36716
+Diag. [46]: Early exit due to user requesting (fast) WFT only, (non updated) energy= -16
+Diag. [46]: Ground state energy= -16
+Diag. [46]: Found targetted symmetry sector in partition 452 of size=5350
+Diag. [46]: Norm of vector is 1 and quantum numbers are 4 8 2 2 
+Diag. [46]: Number of Sectors found 1
+ApplyOperatorExpression [46]: Steps without advance: 3 site=3 currenTime=0
+ApplyOperatorExpression [46]: Evolving, stage=WFT_NOADVANCE site=3 loopNumber=4 Eg=-16
+ApplyOperatorExpression [46]: I'm calling the WFT now
+VectorWithOffset [46]: populateFromQns succeeded
+WaveFunctionTransfLocal [46]:  Destination sectors 1 Source sectors 1
+WaveFunctionTransf [49]: Transformation completed 
+ApplyOperatorExpression [49]: EnergyForExp was not provided explicitly,  value= -16
+ModelCommon [49]: LinkProductStructSize=4
+KronMatrix [49]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+LanczosSolver [49]: Constructing... mat.rank=5350 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [50]: lotaMemory_=true
+LanczosSolver [50]: Decomposition done for mat.rank=5350 after 80 steps, actual eps=4.56968e-13
+-------------&*&*&* In-situ measurements start
+ALL OPERATORS HAVE BEEN APPLIED
+-------------&*&*&* In-situ measurements end
+ModelCommon [50]: LinkProductStructSize=4
+KronMatrix [50]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [50]: Hamiltonian average at time=0 for target=0 sector=452 <phi(t)|H|phi(t)>=6.66667 <phi(t)|phi(t)>=1 6.66667
+ModelCommon [51]: LinkProductStructSize=4
+KronMatrix [51]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [51]: Hamiltonian average at time=0 for target=1 sector=452 <phi(t)|H|phi(t)>=1.59668 <phi(t)|phi(t)>=0.338325 4.71936
+ModelCommon [51]: LinkProductStructSize=4
+KronMatrix [51]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [51]: Hamiltonian average at time=0 for target=2 sector=452 <phi(t)|H|phi(t)>=0.381954 <phi(t)|phi(t)>=0.125362 3.0468
+ModelCommon [51]: LinkProductStructSize=4
+KronMatrix [51]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [51]: Hamiltonian average at time=0 for target=3 sector=452 <phi(t)|H|phi(t)>=0.0861471 <phi(t)|phi(t)>=0.0500745 1.72038
+ModelCommon [51]: LinkProductStructSize=4
+KronMatrix [51]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [51]: Hamiltonian average at time=0 for target=4 sector=452 <phi(t)|H|phi(t)>=0.0155602 <phi(t)|phi(t)>=0.0211886 0.734367
+TargetingTimeStep [51]: gsWeight=0.1 weights= 0.257143 0.128571 0.128571 0.128571 0.257143 
+TargetingTimeStep [51]: gsNorm=1 norms= 1 1 1 1 1 
+WaveFunctionTransf [51]: Window closed, no more transformations, please
+Truncation [51]: for Environment
+DensityMatrixLocal [51]: Init partition for all targets
+DensityMatrixLocal [52]: Done with init partition
+Truncation [52]: Not changing kept states=150
+Discarded weight (Truncation error): 2.42202e-10
+Truncation [52]: EntropyVonNeumann= 1.89665; ReyniIndex= 2 EntropyReyni=1.64542
+Truncation [52]: done with entanglement
+Truncation [52]: Truncating transform...
+DiskStacksystem/2 [52]: Truncating indices...
+DiskStacksystem/2 [52]: Done with changeBasis
+WaveFunctionTransf [52]: OK, pushing option=2 and stage=2
+Truncation [52]: new size of basis=150 transform is 2400 x 150 with 196 symmetry blocks
+DmrgSolver [52]: Current virtual memory is 373096 kB maximum was 444148 kB
+addHamiltonianConnection [52]: starting clock
+addHamiltonianConnection [52]: stopping clock
+LeftRightSuper [52]: finite: left-block basis=2400, right-block basis=16 sites=5+1
+SymmetryElectronsSz: Integer target quantum numbers are: 4 8 2 2 
+WaveFunctionTransf [52]: Window open, ready to transform vectors
+Diag. [52]: Setting up Hamiltonian basis of size=38400
+WaveFunctionTransfLocal [52]:  Destination sectors 1 Source sectors 1
+WaveFunctionTransf [52]: Transformation completed 
+Diag. [52]: About to diag. sector with quantum numbs. 4 8 2 2  quantumSector=36716
+Diag. [52]: Early exit due to user requesting (fast) WFT only, (non updated) energy= -16
+Diag. [52]: Ground state energy= -16
+Diag. [52]: Found targetted symmetry sector in partition 264 of size=689
+Diag. [52]: Norm of vector is 1 and quantum numbers are 4 8 2 2 
+Diag. [52]: Number of Sectors found 1
+ApplyOperatorExpression [52]: Steps without advance: 4 site=4 currenTime=0
+ApplyOperatorExpression [52]: Evolving, stage=WFT_NOADVANCE site=4 loopNumber=4 Eg=-16
+ApplyOperatorExpression [52]: I'm calling the WFT now
+VectorWithOffset [52]: populateFromQns succeeded
+WaveFunctionTransfLocal [52]:  Destination sectors 1 Source sectors 1
+WaveFunctionTransf [52]: Transformation completed 
+ApplyOperatorExpression [52]: EnergyForExp was not provided explicitly,  value= -16
+ModelCommon [52]: LinkProductStructSize=4
+KronMatrix [52]: KronMatrix: Hamiltonian sizes=689 689 loadBalance false
+LanczosSolver [52]: Constructing... mat.rank=689 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [52]: lotaMemory_=true
+LanczosSolver [52]: Decomposition done for mat.rank=689 after 69 steps, actual eps=6.22613e-13
+-------------&*&*&* In-situ measurements start
+ALL OPERATORS HAVE BEEN APPLIED
+-------------&*&*&* In-situ measurements end
+ModelCommon [52]: LinkProductStructSize=4
+KronMatrix [52]: KronMatrix: Hamiltonian sizes=689 689 loadBalance false
+TargetingTimeStep [52]: Hamiltonian average at time=0 for target=0 sector=264 <phi(t)|H|phi(t)>=6.66667 <phi(t)|phi(t)>=1 6.66667
+ModelCommon [52]: LinkProductStructSize=4
+KronMatrix [52]: KronMatrix: Hamiltonian sizes=689 689 loadBalance false
+TargetingTimeStep [52]: Hamiltonian average at time=0 for target=1 sector=264 <phi(t)|H|phi(t)>=1.59668 <phi(t)|phi(t)>=0.338325 4.71936
+ModelCommon [52]: LinkProductStructSize=4
+KronMatrix [52]: KronMatrix: Hamiltonian sizes=689 689 loadBalance false
+TargetingTimeStep [52]: Hamiltonian average at time=0 for target=2 sector=264 <phi(t)|H|phi(t)>=0.381954 <phi(t)|phi(t)>=0.125362 3.0468
+ModelCommon [52]: LinkProductStructSize=4
+KronMatrix [52]: KronMatrix: Hamiltonian sizes=689 689 loadBalance false
+TargetingTimeStep [52]: Hamiltonian average at time=0 for target=3 sector=264 <phi(t)|H|phi(t)>=0.0861471 <phi(t)|phi(t)>=0.0500745 1.72038
+ModelCommon [52]: LinkProductStructSize=4
+KronMatrix [52]: KronMatrix: Hamiltonian sizes=689 689 loadBalance false
+TargetingTimeStep [52]: Hamiltonian average at time=0 for target=4 sector=264 <phi(t)|H|phi(t)>=0.0155602 <phi(t)|phi(t)>=0.0211886 0.734367
+TargetingTimeStep [52]: gsWeight=0.1 weights= 0.257143 0.128571 0.128571 0.128571 0.257143 
+TargetingTimeStep [52]: gsNorm=1 norms= 1 1 1 1 1 
+WaveFunctionTransf [52]: Window closed, no more transformations, please
+Truncation [52]: for Environment
+DensityMatrixLocal [52]: Init partition for all targets
+DensityMatrixLocal [52]: Done with init partition
+Truncation [52]: Not changing kept states=150
+Discarded weight (Truncation error): 3.64808e-15
+Truncation [52]: EntropyVonNeumann= 1.43913; ReyniIndex= 2 EntropyReyni=1.27169
+Truncation [52]: done with entanglement
+Truncation [52]: Truncating transform...
+DiskStacksystem/2 [52]: Truncating indices...
+DiskStacksystem/2 [52]: Done with changeBasis
+WaveFunctionTransf [52]: OK, pushing option=2 and stage=2
+Truncation [52]: new size of basis=150 transform is 2400 x 150 with 196 symmetry blocks
+DmrgSolver [52]: Finite loop number 5 with l=-2 keptStates=150. 7 more loops to go.
+addHamiltonianConnection [52]: starting clock
+addHamiltonianConnection [52]: stopping clock
+LeftRightSuper [52]: finite: left-block basis=2400, right-block basis=256 sites=4+2
+SymmetryElectronsSz: Integer target quantum numbers are: 4 8 2 2 
+WaveFunctionTransf [52]: Window open, ready to transform vectors
+Diag. [52]: Setting up Hamiltonian basis of size=614400
+WaveFunctionTransfLocal [52]:  We're bouncing on the right, so buckle up!
+WaveFunctionTransf [52]: Transformation completed 
+Diag. [52]: About to diag. sector with quantum numbs. 4 8 2 2  quantumSector=36716
+Diag. [52]: Early exit due to user requesting (fast) WFT only, (non updated) energy= -16
+Diag. [52]: Ground state energy= -16
+Diag. [52]: Found targetted symmetry sector in partition 452 of size=5350
+Diag. [52]: Norm of vector is 1 and quantum numbers are 4 8 2 2 
+Diag. [52]: Number of Sectors found 1
+ApplyOperatorExpression [52]: Steps without advance: 5 site=4 currenTime=0
+ApplyOperatorExpression [52]: Evolving, stage=WFT_NOADVANCE site=4 loopNumber=5 Eg=-16
+ApplyOperatorExpression [52]: I'm calling the WFT now
+VectorWithOffset [52]: populateFromQns succeeded
+WaveFunctionTransfLocal [52]:  We're bouncing on the right, so buckle up!
+WaveFunctionTransf [52]: Transformation completed 
+ApplyOperatorExpression [52]: EnergyForExp was not provided explicitly,  value= -16
+ModelCommon [52]: LinkProductStructSize=4
+KronMatrix [52]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+LanczosSolver [52]: Constructing... mat.rank=5350 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [53]: lotaMemory_=true
+LanczosSolver [53]: Decomposition done for mat.rank=5350 after 80 steps, actual eps=4.60076e-13
+-------------&*&*&* In-situ measurements start
+ALL OPERATORS HAVE BEEN APPLIED
+-------------&*&*&* In-situ measurements end
+ModelCommon [53]: LinkProductStructSize=4
+KronMatrix [53]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [53]: Hamiltonian average at time=0 for target=0 sector=452 <phi(t)|H|phi(t)>=6.66667 <phi(t)|phi(t)>=1 6.66667
+ModelCommon [53]: LinkProductStructSize=4
+KronMatrix [53]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [53]: Hamiltonian average at time=0 for target=1 sector=452 <phi(t)|H|phi(t)>=1.59668 <phi(t)|phi(t)>=0.338325 4.71936
+ModelCommon [53]: LinkProductStructSize=4
+KronMatrix [53]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [53]: Hamiltonian average at time=0 for target=2 sector=452 <phi(t)|H|phi(t)>=0.381954 <phi(t)|phi(t)>=0.125362 3.0468
+ModelCommon [53]: LinkProductStructSize=4
+KronMatrix [53]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [53]: Hamiltonian average at time=0 for target=3 sector=452 <phi(t)|H|phi(t)>=0.0861471 <phi(t)|phi(t)>=0.0500745 1.72038
+ModelCommon [53]: LinkProductStructSize=4
+KronMatrix [53]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [53]: Hamiltonian average at time=0 for target=4 sector=452 <phi(t)|H|phi(t)>=0.0155602 <phi(t)|phi(t)>=0.0211886 0.734367
+TargetingTimeStep [53]: gsWeight=0.1 weights= 0.257143 0.128571 0.128571 0.128571 0.257143 
+TargetingTimeStep [53]: gsNorm=1 norms= 1 1 1 1 1 
+WaveFunctionTransf [53]: Window closed, no more transformations, please
+Truncation [53]: for System
+DensityMatrixLocal [53]: Init partition for all targets
+DensityMatrixLocal [53]: Done with init partition
+Truncation [53]: Not changing kept states=150
+Discarded weight (Truncation error): 1.74037e-12
+Truncation [53]: EntropyVonNeumann= 1.81606; ReyniIndex= 2 EntropyReyni=1.61065
+Truncation [53]: done with entanglement
+Truncation [53]: Truncating transform...
+DiskStackenviron/2 [53]: Truncating indices...
+DiskStackenviron/2 [53]: Done with changeBasis
+WaveFunctionTransf [53]: OK, pushing option=1 and stage=1
+Truncation [53]: new size of basis=150 transform is 256 x 150 with 81 blocks
+DmrgSolver [53]: Current virtual memory is 373096 kB maximum was 444148 kB
+addHamiltonianConnection [53]: starting clock
+addHamiltonianConnection [53]: stopping clock
+LeftRightSuper [53]: finite: left-block basis=2400, right-block basis=2400 sites=3+3
+SymmetryElectronsSz: Integer target quantum numbers are: 4 8 2 2 
+WaveFunctionTransf [54]: Window open, ready to transform vectors
+Diag. [54]: Setting up Hamiltonian basis of size=5760000
+WaveFunctionTransf [55]: Transformation completed 
+Diag. [55]: About to diag. sector with quantum numbs. 4 8 2 2  quantumSector=36716
+Diag. [55]: Early exit due to user requesting (fast) WFT only, (non updated) energy= -16
+Diag. [55]: Ground state energy= -16
+Diag. [55]: Found targetted symmetry sector in partition 708 of size=26309
+Diag. [55]: Norm of vector is 1 and quantum numbers are 4 8 2 2 
+Diag. [55]: Number of Sectors found 1
+ApplyOperatorExpression [55]: Steps without advance: 6 site=3 currenTime=0
+ApplyOperatorExpression [55]: Evolving, stage=WFT_NOADVANCE site=3 loopNumber=5 Eg=-16
+ApplyOperatorExpression [55]: I'm calling the WFT now
+VectorWithOffset [55]: populateFromQns succeeded
+WaveFunctionTransf [56]: Transformation completed 
+ApplyOperatorExpression [56]: EnergyForExp was not provided explicitly,  value= -16
+ModelCommon [56]: LinkProductStructSize=4
+KronMatrix [56]: KronMatrix: Hamiltonian sizes=26309 26309 loadBalance false
+LanczosSolver [56]: Constructing... mat.rank=26309 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [59]: lotaMemory_=true
+LanczosSolver [59]: Decomposition done for mat.rank=26309 after 200 steps, actual eps=0
+LanczosSolver [59]: WARNING: Maximum number of steps used. Increasing this maximum is recommended.
+-------------&*&*&* In-situ measurements start
+ALL OPERATORS HAVE BEEN APPLIED
+-------------&*&*&* In-situ measurements end
+ModelCommon [66]: LinkProductStructSize=4
+KronMatrix [66]: KronMatrix: Hamiltonian sizes=26309 26309 loadBalance false
+TargetingTimeStep [66]: Hamiltonian average at time=0 for target=0 sector=708 <phi(t)|H|phi(t)>=6.66667 <phi(t)|phi(t)>=1 6.66667
+ModelCommon [66]: LinkProductStructSize=4
+KronMatrix [66]: KronMatrix: Hamiltonian sizes=26309 26309 loadBalance false
+TargetingTimeStep [66]: Hamiltonian average at time=0 for target=1 sector=708 <phi(t)|H|phi(t)>=1.59668 <phi(t)|phi(t)>=0.338325 4.71936
+ModelCommon [66]: LinkProductStructSize=4
+KronMatrix [66]: KronMatrix: Hamiltonian sizes=26309 26309 loadBalance false
+TargetingTimeStep [66]: Hamiltonian average at time=0 for target=2 sector=708 <phi(t)|H|phi(t)>=0.381954 <phi(t)|phi(t)>=0.125362 3.0468
+ModelCommon [66]: LinkProductStructSize=4
+KronMatrix [66]: KronMatrix: Hamiltonian sizes=26309 26309 loadBalance false
+TargetingTimeStep [66]: Hamiltonian average at time=0 for target=3 sector=708 <phi(t)|H|phi(t)>=0.0861471 <phi(t)|phi(t)>=0.0500745 1.72038
+ModelCommon [66]: LinkProductStructSize=4
+KronMatrix [66]: KronMatrix: Hamiltonian sizes=26309 26309 loadBalance false
+TargetingTimeStep [66]: Hamiltonian average at time=0 for target=4 sector=708 <phi(t)|H|phi(t)>=0.0155603 <phi(t)|phi(t)>=0.0211886 0.734367
+TargetingTimeStep [66]: gsWeight=0.1 weights= 0.257143 0.128571 0.128571 0.128571 0.257143 
+TargetingTimeStep [66]: gsNorm=1 norms= 1 1 1 1 1 
+WaveFunctionTransf [66]: Window closed, no more transformations, please
+Truncation [66]: for System
+DensityMatrixLocal [66]: Init partition for all targets
+DensityMatrixLocal [69]: Done with init partition
+Truncation [69]: Not changing kept states=150
+Discarded weight (Truncation error): 3.7327e-10
+Truncation [69]: EntropyVonNeumann= 1.99522; ReyniIndex= 2 EntropyReyni=1.66259
+Truncation [69]: done with entanglement
+Truncation [69]: Truncating transform...
+DiskStackenviron/2 [69]: Truncating indices...
+DiskStackenviron/2 [69]: Done with changeBasis
+WaveFunctionTransf [69]: OK, pushing option=1 and stage=1
+Truncation [69]: new size of basis=150 transform is 2400 x 150 with 224 blocks
+DmrgSolver [69]: Finite loop number 6 with l=-2 keptStates=150. 6 more loops to go.
+addHamiltonianConnection [69]: starting clock
+addHamiltonianConnection [69]: stopping clock
+LeftRightSuper [69]: finite: left-block basis=256, right-block basis=2400 sites=2+4
+SymmetryElectronsSz: Integer target quantum numbers are: 4 8 2 2 
+WaveFunctionTransf [69]: Window open, ready to transform vectors
+Diag. [69]: Setting up Hamiltonian basis of size=614400
+WaveFunctionTransf [70]: Transformation completed 
+Diag. [70]: About to diag. sector with quantum numbs. 4 8 2 2  quantumSector=36716
+Diag. [70]: Early exit due to user requesting (fast) WFT only, (non updated) energy= -16
+Diag. [70]: Ground state energy= -16
+Diag. [70]: Found targetted symmetry sector in partition 452 of size=5350
+Diag. [70]: Norm of vector is 1 and quantum numbers are 4 8 2 2 
+Diag. [70]: Number of Sectors found 1
+ApplyOperatorExpression [70]: Steps without advance: 7 site=2 currenTime=0
+ApplyOperatorExpression [70]: Evolving, stage=WFT_NOADVANCE site=2 loopNumber=6 Eg=-16
+ApplyOperatorExpression [70]: I'm calling the WFT now
+VectorWithOffset [70]: populateFromQns succeeded
+WaveFunctionTransf [71]: Transformation completed 
+ApplyOperatorExpression [71]: EnergyForExp was not provided explicitly,  value= -16
+ModelCommon [71]: LinkProductStructSize=4
+KronMatrix [71]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+LanczosSolver [71]: Constructing... mat.rank=5350 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [72]: lotaMemory_=true
+LanczosSolver [72]: Decomposition done for mat.rank=5350 after 80 steps, actual eps=4.18332e-13
+-------------&*&*&* In-situ measurements start
+ALL OPERATORS HAVE BEEN APPLIED
+-------------&*&*&* In-situ measurements end
+ModelCommon [72]: LinkProductStructSize=4
+KronMatrix [72]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [72]: Hamiltonian average at time=0 for target=0 sector=452 <phi(t)|H|phi(t)>=6.66667 <phi(t)|phi(t)>=1 6.66667
+ModelCommon [72]: LinkProductStructSize=4
+KronMatrix [72]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [72]: Hamiltonian average at time=0 for target=1 sector=452 <phi(t)|H|phi(t)>=1.59668 <phi(t)|phi(t)>=0.338325 4.71936
+ModelCommon [72]: LinkProductStructSize=4
+KronMatrix [72]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [72]: Hamiltonian average at time=0 for target=2 sector=452 <phi(t)|H|phi(t)>=0.381954 <phi(t)|phi(t)>=0.125362 3.0468
+ModelCommon [72]: LinkProductStructSize=4
+KronMatrix [72]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [72]: Hamiltonian average at time=0 for target=3 sector=452 <phi(t)|H|phi(t)>=0.0861471 <phi(t)|phi(t)>=0.0500745 1.72038
+ModelCommon [72]: LinkProductStructSize=4
+KronMatrix [72]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [72]: Hamiltonian average at time=0 for target=4 sector=452 <phi(t)|H|phi(t)>=0.0155602 <phi(t)|phi(t)>=0.0211886 0.734367
+TargetingTimeStep [72]: gsWeight=0.1 weights= 0.257143 0.128571 0.128571 0.128571 0.257143 
+TargetingTimeStep [72]: gsNorm=1 norms= 1 1 1 1 1 
+WaveFunctionTransf [72]: Window closed, no more transformations, please
+Truncation [72]: for System
+DensityMatrixLocal [72]: Init partition for all targets
+DensityMatrixLocal [73]: Done with init partition
+Truncation [73]: Not changing kept states=150
+Discarded weight (Truncation error): 2.42166e-10
+Truncation [73]: EntropyVonNeumann= 1.89665; ReyniIndex= 2 EntropyReyni=1.64542
+Truncation [73]: done with entanglement
+Truncation [73]: Truncating transform...
+DiskStackenviron/2 [73]: Truncating indices...
+DiskStackenviron/2 [73]: Done with changeBasis
+WaveFunctionTransf [73]: OK, pushing option=1 and stage=1
+Truncation [73]: new size of basis=150 transform is 2400 x 150 with 196 blocks
+DmrgSolver [73]: Current virtual memory is 384588 kB maximum was 466804 kB
+addHamiltonianConnection [73]: starting clock
+addHamiltonianConnection [73]: stopping clock
+LeftRightSuper [73]: finite: left-block basis=16, right-block basis=2400 sites=1+5
+SymmetryElectronsSz: Integer target quantum numbers are: 4 8 2 2 
+WaveFunctionTransf [73]: Window open, ready to transform vectors
+Diag. [73]: Setting up Hamiltonian basis of size=38400
+WaveFunctionTransf [73]: Transformation completed 
+Diag. [73]: About to diag. sector with quantum numbs. 4 8 2 2  quantumSector=36716
+Diag. [73]: Early exit due to user requesting (fast) WFT only, (non updated) energy= -16
+Diag. [73]: Ground state energy= -16
+Diag. [73]: Found targetted symmetry sector in partition 264 of size=689
+Diag. [73]: Norm of vector is 1 and quantum numbers are 4 8 2 2 
+Diag. [73]: Number of Sectors found 1
+ApplyOperatorExpression [73]: Steps without advance: 8 site=1 currenTime=0
+ApplyOperatorExpression [73]: Evolving, stage=WFT_NOADVANCE site=1 loopNumber=6 Eg=-16
+ApplyOperatorExpression [73]: I'm calling the WFT now
+VectorWithOffset [73]: populateFromQns succeeded
+WaveFunctionTransf [73]: Transformation completed 
+ApplyOperatorExpression [73]: EnergyForExp was not provided explicitly,  value= -16
+ModelCommon [73]: LinkProductStructSize=4
+KronMatrix [73]: KronMatrix: Hamiltonian sizes=689 689 loadBalance false
+LanczosSolver [73]: Constructing... mat.rank=689 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [73]: lotaMemory_=true
+LanczosSolver [73]: Decomposition done for mat.rank=689 after 67 steps, actual eps=7.35856e-13
+-------------&*&*&* In-situ measurements start
+ALL OPERATORS HAVE BEEN APPLIED
+-------------&*&*&* In-situ measurements end
+ModelCommon [73]: LinkProductStructSize=4
+KronMatrix [73]: KronMatrix: Hamiltonian sizes=689 689 loadBalance false
+TargetingTimeStep [73]: Hamiltonian average at time=0 for target=0 sector=264 <phi(t)|H|phi(t)>=6.66667 <phi(t)|phi(t)>=1 6.66667
+ModelCommon [73]: LinkProductStructSize=4
+KronMatrix [73]: KronMatrix: Hamiltonian sizes=689 689 loadBalance false
+TargetingTimeStep [73]: Hamiltonian average at time=0 for target=1 sector=264 <phi(t)|H|phi(t)>=1.59668 <phi(t)|phi(t)>=0.338325 4.71936
+ModelCommon [73]: LinkProductStructSize=4
+KronMatrix [73]: KronMatrix: Hamiltonian sizes=689 689 loadBalance false
+TargetingTimeStep [73]: Hamiltonian average at time=0 for target=2 sector=264 <phi(t)|H|phi(t)>=0.381954 <phi(t)|phi(t)>=0.125362 3.0468
+ModelCommon [73]: LinkProductStructSize=4
+KronMatrix [73]: KronMatrix: Hamiltonian sizes=689 689 loadBalance false
+TargetingTimeStep [73]: Hamiltonian average at time=0 for target=3 sector=264 <phi(t)|H|phi(t)>=0.0861471 <phi(t)|phi(t)>=0.0500745 1.72038
+ModelCommon [73]: LinkProductStructSize=4
+KronMatrix [73]: KronMatrix: Hamiltonian sizes=689 689 loadBalance false
+TargetingTimeStep [73]: Hamiltonian average at time=0 for target=4 sector=264 <phi(t)|H|phi(t)>=0.0155602 <phi(t)|phi(t)>=0.0211886 0.734367
+TargetingTimeStep [73]: gsWeight=0.1 weights= 0.257143 0.128571 0.128571 0.128571 0.257143 
+TargetingTimeStep [73]: gsNorm=1 norms= 1 1 1 1 1 
+WaveFunctionTransf [73]: Window closed, no more transformations, please
+Truncation [73]: for System
+DensityMatrixLocal [73]: Init partition for all targets
+DensityMatrixLocal [73]: Done with init partition
+Truncation [73]: Not changing kept states=150
+Discarded weight (Truncation error): 2.53867e-15
+Truncation [73]: EntropyVonNeumann= 1.43913; ReyniIndex= 2 EntropyReyni=1.27169
+Truncation [73]: done with entanglement
+Truncation [73]: Truncating transform...
+DiskStackenviron/2 [73]: Truncating indices...
+DiskStackenviron/2 [73]: Done with changeBasis
+WaveFunctionTransf [73]: OK, pushing option=1 and stage=1
+Truncation [73]: new size of basis=150 transform is 2400 x 150 with 196 blocks
+DmrgSolver [73]: Finite loop number 7 with l=2 keptStates=150. 5 more loops to go.
+addHamiltonianConnection [73]: starting clock
+addHamiltonianConnection [73]: stopping clock
+LeftRightSuper [73]: finite: left-block basis=256, right-block basis=2400 sites=2+4
+SymmetryElectronsSz: Integer target quantum numbers are: 4 8 2 2 
+WaveFunctionTransf [73]: Window open, ready to transform vectors
+Diag. [73]: Setting up Hamiltonian basis of size=614400
+WaveFunctionTransfLocal [73]:  We're bouncing on the left, so buckle up!
+WaveFunctionTransf [73]: Transformation completed 
+Diag. [73]: About to diag. sector with quantum numbs. 4 8 2 2  quantumSector=36716
+Diag. [73]: Early exit due to user requesting (fast) WFT only, (non updated) energy= -16
+Diag. [73]: Ground state energy= -16
+Diag. [73]: Found targetted symmetry sector in partition 452 of size=5350
+Diag. [73]: Norm of vector is 1 and quantum numbers are 4 8 2 2 
+Diag. [73]: Number of Sectors found 1
+ApplyOperatorExpression [73]: Steps without advance: 9 site=1 currenTime=0
+ApplyOperatorExpression [73]: Evolving, stage=WFT_NOADVANCE site=1 loopNumber=7 Eg=-16
+ApplyOperatorExpression [73]: I'm calling the WFT now
+VectorWithOffset [73]: populateFromQns succeeded
+WaveFunctionTransfLocal [73]:  We're bouncing on the left, so buckle up!
+WaveFunctionTransf [73]: Transformation completed 
+ApplyOperatorExpression [73]: EnergyForExp was not provided explicitly,  value= -16
+ModelCommon [73]: LinkProductStructSize=4
+KronMatrix [73]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+LanczosSolver [73]: Constructing... mat.rank=5350 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [74]: lotaMemory_=true
+LanczosSolver [74]: Decomposition done for mat.rank=5350 after 80 steps, actual eps=4.21885e-13
+-------------&*&*&* In-situ measurements start
+ALL OPERATORS HAVE BEEN APPLIED
+-------------&*&*&* In-situ measurements end
+ModelCommon [74]: LinkProductStructSize=4
+KronMatrix [74]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [74]: Hamiltonian average at time=0 for target=0 sector=452 <phi(t)|H|phi(t)>=6.66667 <phi(t)|phi(t)>=1 6.66667
+ModelCommon [74]: LinkProductStructSize=4
+KronMatrix [74]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [74]: Hamiltonian average at time=0 for target=1 sector=452 <phi(t)|H|phi(t)>=1.59668 <phi(t)|phi(t)>=0.338325 4.71936
+ModelCommon [74]: LinkProductStructSize=4
+KronMatrix [74]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [74]: Hamiltonian average at time=0 for target=2 sector=452 <phi(t)|H|phi(t)>=0.381954 <phi(t)|phi(t)>=0.125362 3.0468
+ModelCommon [74]: LinkProductStructSize=4
+KronMatrix [74]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [74]: Hamiltonian average at time=0 for target=3 sector=452 <phi(t)|H|phi(t)>=0.0861471 <phi(t)|phi(t)>=0.0500745 1.72038
+ModelCommon [75]: LinkProductStructSize=4
+KronMatrix [75]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [75]: Hamiltonian average at time=0 for target=4 sector=452 <phi(t)|H|phi(t)>=0.0155602 <phi(t)|phi(t)>=0.0211886 0.734367
+TargetingTimeStep [75]: gsWeight=0.1 weights= 0.257143 0.128571 0.128571 0.128571 0.257143 
+TargetingTimeStep [75]: gsNorm=1 norms= 1 1 1 1 1 
+WaveFunctionTransf [75]: Window closed, no more transformations, please
+Truncation [75]: for Environment
+DensityMatrixLocal [75]: Init partition for all targets
+DensityMatrixLocal [75]: Done with init partition
+Truncation [75]: Not changing kept states=150
+Discarded weight (Truncation error): 1.73743e-12
+Truncation [75]: EntropyVonNeumann= 1.81606; ReyniIndex= 2 EntropyReyni=1.61065
+Truncation [75]: done with entanglement
+Truncation [75]: Truncating transform...
+DiskStacksystem/2 [75]: Truncating indices...
+DiskStacksystem/2 [75]: Done with changeBasis
+WaveFunctionTransf [75]: OK, pushing option=2 and stage=2
+Truncation [75]: new size of basis=150 transform is 256 x 150 with 81 symmetry blocks
+DmrgSolver [75]: Current virtual memory is 384588 kB maximum was 466804 kB
+addHamiltonianConnection [75]: starting clock
+addHamiltonianConnection [75]: stopping clock
+LeftRightSuper [75]: finite: left-block basis=2400, right-block basis=2400 sites=3+3
+SymmetryElectronsSz: Integer target quantum numbers are: 4 8 2 2 
+WaveFunctionTransf [75]: Window open, ready to transform vectors
+Diag. [75]: Setting up Hamiltonian basis of size=5760000
+WaveFunctionTransfLocal [75]:  Destination sectors 1 Source sectors 1
+WaveFunctionTransf [79]: Transformation completed 
+Diag. [79]: About to diag. sector with quantum numbs. 4 8 2 2  quantumSector=36716
+Diag. [79]: Early exit due to user requesting (fast) WFT only, (non updated) energy= -16
+Diag. [79]: Ground state energy= -16
+Diag. [79]: Found targetted symmetry sector in partition 708 of size=26309
+Diag. [79]: Norm of vector is 1 and quantum numbers are 4 8 2 2 
+Diag. [79]: Number of Sectors found 1
+ApplyOperatorExpression [79]: Steps without advance: 10 site=2 currenTime=0
+ApplyOperatorExpression [79]: Evolving, stage=WFT_NOADVANCE site=2 loopNumber=7 Eg=-16
+ApplyOperatorExpression [79]: I'm calling the WFT now
+VectorWithOffset [79]: populateFromQns succeeded
+WaveFunctionTransfLocal [79]:  Destination sectors 1 Source sectors 1
+WaveFunctionTransf [82]: Transformation completed 
+ApplyOperatorExpression [82]: EnergyForExp was not provided explicitly,  value= -16
+ModelCommon [82]: LinkProductStructSize=4
+KronMatrix [82]: KronMatrix: Hamiltonian sizes=26309 26309 loadBalance false
+LanczosSolver [82]: Constructing... mat.rank=26309 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [85]: lotaMemory_=true
+LanczosSolver [85]: Decomposition done for mat.rank=26309 after 200 steps, actual eps=0
+LanczosSolver [85]: WARNING: Maximum number of steps used. Increasing this maximum is recommended.
+-------------&*&*&* In-situ measurements start
+ALL OPERATORS HAVE BEEN APPLIED
+-------------&*&*&* In-situ measurements end
+ModelCommon [92]: LinkProductStructSize=4
+KronMatrix [92]: KronMatrix: Hamiltonian sizes=26309 26309 loadBalance false
+TargetingTimeStep [92]: Hamiltonian average at time=0 for target=0 sector=708 <phi(t)|H|phi(t)>=6.66667 <phi(t)|phi(t)>=1 6.66667
+ModelCommon [92]: LinkProductStructSize=4
+KronMatrix [92]: KronMatrix: Hamiltonian sizes=26309 26309 loadBalance false
+TargetingTimeStep [92]: Hamiltonian average at time=0 for target=1 sector=708 <phi(t)|H|phi(t)>=1.59668 <phi(t)|phi(t)>=0.338325 4.71936
+ModelCommon [92]: LinkProductStructSize=4
+KronMatrix [92]: KronMatrix: Hamiltonian sizes=26309 26309 loadBalance false
+TargetingTimeStep [92]: Hamiltonian average at time=0 for target=2 sector=708 <phi(t)|H|phi(t)>=0.381954 <phi(t)|phi(t)>=0.125362 3.0468
+ModelCommon [92]: LinkProductStructSize=4
+KronMatrix [92]: KronMatrix: Hamiltonian sizes=26309 26309 loadBalance false
+TargetingTimeStep [92]: Hamiltonian average at time=0 for target=3 sector=708 <phi(t)|H|phi(t)>=0.0861471 <phi(t)|phi(t)>=0.0500745 1.72038
+ModelCommon [92]: LinkProductStructSize=4
+KronMatrix [92]: KronMatrix: Hamiltonian sizes=26309 26309 loadBalance false
+TargetingTimeStep [92]: Hamiltonian average at time=0 for target=4 sector=708 <phi(t)|H|phi(t)>=0.0155603 <phi(t)|phi(t)>=0.0211886 0.734367
+TargetingTimeStep [92]: gsWeight=0.1 weights= 0.257143 0.128571 0.128571 0.128571 0.257143 
+TargetingTimeStep [92]: gsNorm=1 norms= 1 1 1 1 1 
+WaveFunctionTransf [92]: Window closed, no more transformations, please
+Truncation [92]: for Environment
+DensityMatrixLocal [92]: Init partition for all targets
+DensityMatrixLocal [99]: Done with init partition
+Truncation [99]: Not changing kept states=150
+Discarded weight (Truncation error): 3.74147e-10
+Truncation [99]: EntropyVonNeumann= 1.99522; ReyniIndex= 2 EntropyReyni=1.66259
+Truncation [99]: done with entanglement
+Truncation [99]: Truncating transform...
+DiskStacksystem/2 [99]: Truncating indices...
+DiskStacksystem/2 [99]: Done with changeBasis
+WaveFunctionTransf [99]: OK, pushing option=2 and stage=2
+Truncation [99]: new size of basis=150 transform is 2400 x 150 with 224 symmetry blocks
+DmrgSolver [99]: Finite loop number 8 with l=2 keptStates=150. 4 more loops to go.
+addHamiltonianConnection [99]: starting clock
+addHamiltonianConnection [99]: stopping clock
+LeftRightSuper [99]: finite: left-block basis=2400, right-block basis=256 sites=4+2
+SymmetryElectronsSz: Integer target quantum numbers are: 4 8 2 2 
+WaveFunctionTransf [99]: Window open, ready to transform vectors
+Diag. [99]: Setting up Hamiltonian basis of size=614400
+WaveFunctionTransfLocal [99]:  Destination sectors 1 Source sectors 1
+WaveFunctionTransf [103]: Transformation completed 
+Diag. [103]: About to diag. sector with quantum numbs. 4 8 2 2  quantumSector=36716
+Diag. [103]: Early exit due to user requesting (fast) WFT only, (non updated) energy= -16
+Diag. [103]: Ground state energy= -16
+Diag. [103]: Found targetted symmetry sector in partition 452 of size=5350
+Diag. [103]: Norm of vector is 1 and quantum numbers are 4 8 2 2 
+Diag. [103]: Number of Sectors found 1
+ApplyOperatorExpression [103]: Steps without advance: 11 site=3 currenTime=0
+ApplyOperatorExpression [103]: Evolving, stage=WFT_NOADVANCE site=3 loopNumber=8 Eg=-16
+ApplyOperatorExpression [103]: I'm calling the WFT now
+VectorWithOffset [103]: populateFromQns succeeded
+WaveFunctionTransfLocal [103]:  Destination sectors 1 Source sectors 1
+WaveFunctionTransf [106]: Transformation completed 
+ApplyOperatorExpression [106]: EnergyForExp was not provided explicitly,  value= -16
+ModelCommon [106]: LinkProductStructSize=4
+KronMatrix [106]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+LanczosSolver [106]: Constructing... mat.rank=5350 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [107]: lotaMemory_=true
+LanczosSolver [107]: Decomposition done for mat.rank=5350 after 79 steps, actual eps=9.96092e-13
+-------------&*&*&* In-situ measurements start
+ALL OPERATORS HAVE BEEN APPLIED
+-------------&*&*&* In-situ measurements end
+ModelCommon [107]: LinkProductStructSize=4
+KronMatrix [107]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [107]: Hamiltonian average at time=0 for target=0 sector=452 <phi(t)|H|phi(t)>=6.66667 <phi(t)|phi(t)>=1 6.66667
+ModelCommon [107]: LinkProductStructSize=4
+KronMatrix [107]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [107]: Hamiltonian average at time=0 for target=1 sector=452 <phi(t)|H|phi(t)>=1.59668 <phi(t)|phi(t)>=0.338325 4.71936
+ModelCommon [108]: LinkProductStructSize=4
+KronMatrix [108]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [108]: Hamiltonian average at time=0 for target=2 sector=452 <phi(t)|H|phi(t)>=0.381954 <phi(t)|phi(t)>=0.125362 3.0468
+ModelCommon [108]: LinkProductStructSize=4
+KronMatrix [108]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [108]: Hamiltonian average at time=0 for target=3 sector=452 <phi(t)|H|phi(t)>=0.0861471 <phi(t)|phi(t)>=0.0500745 1.72038
+ModelCommon [108]: LinkProductStructSize=4
+KronMatrix [108]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [108]: Hamiltonian average at time=0 for target=4 sector=452 <phi(t)|H|phi(t)>=0.0155602 <phi(t)|phi(t)>=0.0211886 0.734367
+TargetingTimeStep [108]: gsWeight=0.1 weights= 0.257143 0.128571 0.128571 0.128571 0.257143 
+TargetingTimeStep [108]: gsNorm=1 norms= 1 1 1 1 1 
+WaveFunctionTransf [108]: Window closed, no more transformations, please
+Truncation [108]: for Environment
+DensityMatrixLocal [108]: Init partition for all targets
+DensityMatrixLocal [109]: Done with init partition
+Truncation [109]: Not changing kept states=150
+Discarded weight (Truncation error): 2.42158e-10
+Truncation [109]: EntropyVonNeumann= 1.89665; ReyniIndex= 2 EntropyReyni=1.64542
+Truncation [109]: done with entanglement
+Truncation [109]: Truncating transform...
+DiskStacksystem/2 [109]: Truncating indices...
+DiskStacksystem/2 [109]: Done with changeBasis
+WaveFunctionTransf [109]: OK, pushing option=2 and stage=2
+Truncation [109]: new size of basis=150 transform is 2400 x 150 with 196 symmetry blocks
+DmrgSolver [109]: Current virtual memory is 384588 kB maximum was 466804 kB
+addHamiltonianConnection [109]: starting clock
+addHamiltonianConnection [109]: stopping clock
+LeftRightSuper [109]: finite: left-block basis=2400, right-block basis=16 sites=5+1
+SymmetryElectronsSz: Integer target quantum numbers are: 4 8 2 2 
+WaveFunctionTransf [109]: Window open, ready to transform vectors
+Diag. [109]: Setting up Hamiltonian basis of size=38400
+WaveFunctionTransfLocal [109]:  Destination sectors 1 Source sectors 1
+WaveFunctionTransf [109]: Transformation completed 
+Diag. [109]: About to diag. sector with quantum numbs. 4 8 2 2  quantumSector=36716
+Diag. [109]: Early exit due to user requesting (fast) WFT only, (non updated) energy= -16
+Diag. [109]: Ground state energy= -16
+Diag. [109]: Found targetted symmetry sector in partition 264 of size=689
+Diag. [109]: Norm of vector is 1 and quantum numbers are 4 8 2 2 
+Diag. [109]: Number of Sectors found 1
+ApplyOperatorExpression [109]: Steps without advance: 12 site=4 currenTime=0
+ApplyOperatorExpression [109]: Evolving, stage=WFT_NOADVANCE site=4 loopNumber=8 Eg=-16
+ApplyOperatorExpression [109]: I'm calling the WFT now
+VectorWithOffset [109]: populateFromQns succeeded
+WaveFunctionTransfLocal [109]:  Destination sectors 1 Source sectors 1
+WaveFunctionTransf [109]: Transformation completed 
+ApplyOperatorExpression [109]: EnergyForExp was not provided explicitly,  value= -16
+ModelCommon [109]: LinkProductStructSize=4
+KronMatrix [109]: KronMatrix: Hamiltonian sizes=689 689 loadBalance false
+LanczosSolver [109]: Constructing... mat.rank=689 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [109]: lotaMemory_=true
+LanczosSolver [109]: Decomposition done for mat.rank=689 after 68 steps, actual eps=8.26894e-13
+-------------&*&*&* In-situ measurements start
+ALL OPERATORS HAVE BEEN APPLIED
+-------------&*&*&* In-situ measurements end
+ModelCommon [109]: LinkProductStructSize=4
+KronMatrix [109]: KronMatrix: Hamiltonian sizes=689 689 loadBalance false
+TargetingTimeStep [109]: Hamiltonian average at time=0 for target=0 sector=264 <phi(t)|H|phi(t)>=6.66667 <phi(t)|phi(t)>=1 6.66667
+ModelCommon [109]: LinkProductStructSize=4
+KronMatrix [109]: KronMatrix: Hamiltonian sizes=689 689 loadBalance false
+TargetingTimeStep [109]: Hamiltonian average at time=0 for target=1 sector=264 <phi(t)|H|phi(t)>=1.59668 <phi(t)|phi(t)>=0.338325 4.71936
+ModelCommon [109]: LinkProductStructSize=4
+KronMatrix [109]: KronMatrix: Hamiltonian sizes=689 689 loadBalance false
+TargetingTimeStep [109]: Hamiltonian average at time=0 for target=2 sector=264 <phi(t)|H|phi(t)>=0.381954 <phi(t)|phi(t)>=0.125362 3.0468
+ModelCommon [109]: LinkProductStructSize=4
+KronMatrix [109]: KronMatrix: Hamiltonian sizes=689 689 loadBalance false
+TargetingTimeStep [109]: Hamiltonian average at time=0 for target=3 sector=264 <phi(t)|H|phi(t)>=0.0861471 <phi(t)|phi(t)>=0.0500745 1.72038
+ModelCommon [109]: LinkProductStructSize=4
+KronMatrix [109]: KronMatrix: Hamiltonian sizes=689 689 loadBalance false
+TargetingTimeStep [109]: Hamiltonian average at time=0 for target=4 sector=264 <phi(t)|H|phi(t)>=0.0155602 <phi(t)|phi(t)>=0.0211886 0.734367
+TargetingTimeStep [109]: gsWeight=0.1 weights= 0.257143 0.128571 0.128571 0.128571 0.257143 
+TargetingTimeStep [109]: gsNorm=1 norms= 1 1 1 1 1 
+WaveFunctionTransf [109]: Window closed, no more transformations, please
+Truncation [109]: for Environment
+DensityMatrixLocal [109]: Init partition for all targets
+DensityMatrixLocal [109]: Done with init partition
+Truncation [109]: Not changing kept states=150
+Discarded weight (Truncation error): 3.34026e-15
+Truncation [109]: EntropyVonNeumann= 1.43913; ReyniIndex= 2 EntropyReyni=1.27169
+Truncation [109]: done with entanglement
+Truncation [109]: Truncating transform...
+DiskStacksystem/2 [109]: Truncating indices...
+DiskStacksystem/2 [109]: Done with changeBasis
+WaveFunctionTransf [109]: OK, pushing option=2 and stage=2
+Truncation [109]: new size of basis=150 transform is 2400 x 150 with 196 symmetry blocks
+DmrgSolver [109]: Finite loop number 9 with l=-2 keptStates=150. 3 more loops to go.
+addHamiltonianConnection [109]: starting clock
+addHamiltonianConnection [109]: stopping clock
+LeftRightSuper [109]: finite: left-block basis=2400, right-block basis=256 sites=4+2
+SymmetryElectronsSz: Integer target quantum numbers are: 4 8 2 2 
+WaveFunctionTransf [109]: Window open, ready to transform vectors
+Diag. [109]: Setting up Hamiltonian basis of size=614400
+WaveFunctionTransfLocal [109]:  We're bouncing on the right, so buckle up!
+WaveFunctionTransf [109]: Transformation completed 
+Diag. [109]: About to diag. sector with quantum numbs. 4 8 2 2  quantumSector=36716
+Diag. [109]: Early exit due to user requesting (fast) WFT only, (non updated) energy= -16
+Diag. [109]: Ground state energy= -16
+Diag. [109]: Found targetted symmetry sector in partition 452 of size=5350
+Diag. [109]: Norm of vector is 1 and quantum numbers are 4 8 2 2 
+Diag. [109]: Number of Sectors found 1
+ApplyOperatorExpression [109]: Steps without advance: 13 site=4 currenTime=0
+ApplyOperatorExpression [109]: Evolving, stage=WFT_NOADVANCE site=4 loopNumber=9 Eg=-16
+ApplyOperatorExpression [109]: I'm calling the WFT now
+VectorWithOffset [109]: populateFromQns succeeded
+WaveFunctionTransfLocal [109]:  We're bouncing on the right, so buckle up!
+WaveFunctionTransf [109]: Transformation completed 
+ApplyOperatorExpression [109]: EnergyForExp was not provided explicitly,  value= -16
+ModelCommon [109]: LinkProductStructSize=4
+KronMatrix [109]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+LanczosSolver [109]: Constructing... mat.rank=5350 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [110]: lotaMemory_=true
+LanczosSolver [110]: Decomposition done for mat.rank=5350 after 80 steps, actual eps=4.34763e-13
+-------------&*&*&* In-situ measurements start
+ALL OPERATORS HAVE BEEN APPLIED
+-------------&*&*&* In-situ measurements end
+ModelCommon [110]: LinkProductStructSize=4
+KronMatrix [110]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [110]: Hamiltonian average at time=0 for target=0 sector=452 <phi(t)|H|phi(t)>=6.66667 <phi(t)|phi(t)>=1 6.66667
+ModelCommon [110]: LinkProductStructSize=4
+KronMatrix [110]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [110]: Hamiltonian average at time=0 for target=1 sector=452 <phi(t)|H|phi(t)>=1.59668 <phi(t)|phi(t)>=0.338325 4.71936
+ModelCommon [110]: LinkProductStructSize=4
+KronMatrix [110]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [110]: Hamiltonian average at time=0 for target=2 sector=452 <phi(t)|H|phi(t)>=0.381954 <phi(t)|phi(t)>=0.125362 3.0468
+ModelCommon [110]: LinkProductStructSize=4
+KronMatrix [110]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [110]: Hamiltonian average at time=0 for target=3 sector=452 <phi(t)|H|phi(t)>=0.0861471 <phi(t)|phi(t)>=0.0500745 1.72038
+ModelCommon [110]: LinkProductStructSize=4
+KronMatrix [110]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [110]: Hamiltonian average at time=0 for target=4 sector=452 <phi(t)|H|phi(t)>=0.0155602 <phi(t)|phi(t)>=0.0211886 0.734367
+TargetingTimeStep [110]: gsWeight=0.1 weights= 0.257143 0.128571 0.128571 0.128571 0.257143 
+TargetingTimeStep [110]: gsNorm=1 norms= 1 1 1 1 1 
+WaveFunctionTransf [110]: Window closed, no more transformations, please
+Truncation [110]: for System
+DensityMatrixLocal [110]: Init partition for all targets
+DensityMatrixLocal [110]: Done with init partition
+Truncation [110]: Not changing kept states=150
+Discarded weight (Truncation error): 1.73677e-12
+Truncation [110]: EntropyVonNeumann= 1.81606; ReyniIndex= 2 EntropyReyni=1.61065
+Truncation [110]: done with entanglement
+Truncation [110]: Truncating transform...
+DiskStackenviron/2 [110]: Truncating indices...
+DiskStackenviron/2 [110]: Done with changeBasis
+WaveFunctionTransf [110]: OK, pushing option=1 and stage=1
+Truncation [110]: new size of basis=150 transform is 256 x 150 with 81 blocks
+DmrgSolver [110]: Current virtual memory is 384588 kB maximum was 466804 kB
+addHamiltonianConnection [110]: starting clock
+addHamiltonianConnection [110]: stopping clock
+LeftRightSuper [110]: finite: left-block basis=2400, right-block basis=2400 sites=3+3
+SymmetryElectronsSz: Integer target quantum numbers are: 4 8 2 2 
+WaveFunctionTransf [111]: Window open, ready to transform vectors
+Diag. [111]: Setting up Hamiltonian basis of size=5760000
+WaveFunctionTransf [112]: Transformation completed 
+Diag. [112]: About to diag. sector with quantum numbs. 4 8 2 2  quantumSector=36716
+Diag. [112]: Early exit due to user requesting (fast) WFT only, (non updated) energy= -16
+Diag. [112]: Ground state energy= -16
+Diag. [112]: Found targetted symmetry sector in partition 708 of size=26309
+Diag. [112]: Norm of vector is 1 and quantum numbers are 4 8 2 2 
+Diag. [112]: Number of Sectors found 1
+ApplyOperatorExpression [112]: Steps without advance: 14 site=3 currenTime=0
+ApplyOperatorExpression [112]: Evolving, stage=WFT_NOADVANCE site=3 loopNumber=9 Eg=-16
+ApplyOperatorExpression [112]: I'm calling the WFT now
+VectorWithOffset [112]: populateFromQns succeeded
+WaveFunctionTransf [113]: Transformation completed 
+ApplyOperatorExpression [113]: EnergyForExp was not provided explicitly,  value= -16
+ModelCommon [113]: LinkProductStructSize=4
+KronMatrix [113]: KronMatrix: Hamiltonian sizes=26309 26309 loadBalance false
+LanczosSolver [113]: Constructing... mat.rank=26309 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [115]: lotaMemory_=true
+LanczosSolver [116]: Decomposition done for mat.rank=26309 after 200 steps, actual eps=0
+LanczosSolver [116]: WARNING: Maximum number of steps used. Increasing this maximum is recommended.
+-------------&*&*&* In-situ measurements start
+ALL OPERATORS HAVE BEEN APPLIED
+-------------&*&*&* In-situ measurements end
+ModelCommon [123]: LinkProductStructSize=4
+KronMatrix [123]: KronMatrix: Hamiltonian sizes=26309 26309 loadBalance false
+TargetingTimeStep [123]: Hamiltonian average at time=0 for target=0 sector=708 <phi(t)|H|phi(t)>=6.66667 <phi(t)|phi(t)>=1 6.66667
+ModelCommon [123]: LinkProductStructSize=4
+KronMatrix [123]: KronMatrix: Hamiltonian sizes=26309 26309 loadBalance false
+TargetingTimeStep [123]: Hamiltonian average at time=0 for target=1 sector=708 <phi(t)|H|phi(t)>=1.59668 <phi(t)|phi(t)>=0.338325 4.71936
+ModelCommon [123]: LinkProductStructSize=4
+KronMatrix [123]: KronMatrix: Hamiltonian sizes=26309 26309 loadBalance false
+TargetingTimeStep [123]: Hamiltonian average at time=0 for target=2 sector=708 <phi(t)|H|phi(t)>=0.381954 <phi(t)|phi(t)>=0.125362 3.0468
+ModelCommon [123]: LinkProductStructSize=4
+KronMatrix [123]: KronMatrix: Hamiltonian sizes=26309 26309 loadBalance false
+TargetingTimeStep [123]: Hamiltonian average at time=0 for target=3 sector=708 <phi(t)|H|phi(t)>=0.0861471 <phi(t)|phi(t)>=0.0500745 1.72038
+ModelCommon [123]: LinkProductStructSize=4
+KronMatrix [123]: KronMatrix: Hamiltonian sizes=26309 26309 loadBalance false
+TargetingTimeStep [123]: Hamiltonian average at time=0 for target=4 sector=708 <phi(t)|H|phi(t)>=0.0155602 <phi(t)|phi(t)>=0.0211886 0.734367
+TargetingTimeStep [123]: gsWeight=0.1 weights= 0.257143 0.128571 0.128571 0.128571 0.257143 
+TargetingTimeStep [123]: gsNorm=1 norms= 1 1 1 1 1 
+WaveFunctionTransf [123]: Window closed, no more transformations, please
+Truncation [123]: for System
+DensityMatrixLocal [123]: Init partition for all targets
+DensityMatrixLocal [126]: Done with init partition
+Truncation [126]: Not changing kept states=150
+Discarded weight (Truncation error): 3.73117e-10
+Truncation [126]: EntropyVonNeumann= 1.99522; ReyniIndex= 2 EntropyReyni=1.66259
+Truncation [126]: done with entanglement
+Truncation [126]: Truncating transform...
+DiskStackenviron/2 [126]: Truncating indices...
+DiskStackenviron/2 [126]: Done with changeBasis
+WaveFunctionTransf [126]: OK, pushing option=1 and stage=1
+Truncation [126]: new size of basis=150 transform is 2400 x 150 with 224 blocks
+DmrgSolver [126]: Finite loop number 10 with l=-2 keptStates=150. 2 more loops to go.
+addHamiltonianConnection [126]: starting clock
+addHamiltonianConnection [126]: stopping clock
+LeftRightSuper [126]: finite: left-block basis=256, right-block basis=2400 sites=2+4
+SymmetryElectronsSz: Integer target quantum numbers are: 4 8 2 2 
+WaveFunctionTransf [126]: Window open, ready to transform vectors
+Diag. [126]: Setting up Hamiltonian basis of size=614400
+WaveFunctionTransf [127]: Transformation completed 
+Diag. [127]: About to diag. sector with quantum numbs. 4 8 2 2  quantumSector=36716
+Diag. [127]: Early exit due to user requesting (fast) WFT only, (non updated) energy= -16
+Diag. [127]: Ground state energy= -16
+Diag. [127]: Found targetted symmetry sector in partition 452 of size=5350
+Diag. [127]: Norm of vector is 1 and quantum numbers are 4 8 2 2 
+Diag. [127]: Number of Sectors found 1
+ApplyOperatorExpression [127]: Steps without advance: 15 site=2 currenTime=0
+ApplyOperatorExpression [127]: Evolving, stage=WFT_NOADVANCE site=2 loopNumber=10 Eg=-16
+ApplyOperatorExpression [127]: I'm calling the WFT now
+VectorWithOffset [127]: populateFromQns succeeded
+WaveFunctionTransf [128]: Transformation completed 
+ApplyOperatorExpression [128]: EnergyForExp was not provided explicitly,  value= -16
+ModelCommon [128]: LinkProductStructSize=4
+KronMatrix [128]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+LanczosSolver [128]: Constructing... mat.rank=5350 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [129]: lotaMemory_=true
+LanczosSolver [129]: Decomposition done for mat.rank=5350 after 80 steps, actual eps=4.55191e-13
+-------------&*&*&* In-situ measurements start
+ALL OPERATORS HAVE BEEN APPLIED
+-------------&*&*&* In-situ measurements end
+ModelCommon [129]: LinkProductStructSize=4
+KronMatrix [129]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [129]: Hamiltonian average at time=0 for target=0 sector=452 <phi(t)|H|phi(t)>=6.66667 <phi(t)|phi(t)>=1 6.66667
+ModelCommon [129]: LinkProductStructSize=4
+KronMatrix [129]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [129]: Hamiltonian average at time=0 for target=1 sector=452 <phi(t)|H|phi(t)>=1.59668 <phi(t)|phi(t)>=0.338325 4.71936
+ModelCommon [129]: LinkProductStructSize=4
+KronMatrix [129]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [129]: Hamiltonian average at time=0 for target=2 sector=452 <phi(t)|H|phi(t)>=0.381954 <phi(t)|phi(t)>=0.125362 3.0468
+ModelCommon [129]: LinkProductStructSize=4
+KronMatrix [129]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [129]: Hamiltonian average at time=0 for target=3 sector=452 <phi(t)|H|phi(t)>=0.0861471 <phi(t)|phi(t)>=0.0500745 1.72038
+ModelCommon [129]: LinkProductStructSize=4
+KronMatrix [129]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [129]: Hamiltonian average at time=0 for target=4 sector=452 <phi(t)|H|phi(t)>=0.0155602 <phi(t)|phi(t)>=0.0211886 0.734367
+TargetingTimeStep [129]: gsWeight=0.1 weights= 0.257143 0.128571 0.128571 0.128571 0.257143 
+TargetingTimeStep [129]: gsNorm=1 norms= 1 1 1 1 1 
+WaveFunctionTransf [129]: Window closed, no more transformations, please
+Truncation [129]: for System
+DensityMatrixLocal [129]: Init partition for all targets
+DensityMatrixLocal [130]: Done with init partition
+Truncation [130]: Not changing kept states=150
+Discarded weight (Truncation error): 2.42215e-10
+Truncation [130]: EntropyVonNeumann= 1.89665; ReyniIndex= 2 EntropyReyni=1.64542
+Truncation [130]: done with entanglement
+Truncation [130]: Truncating transform...
+DiskStackenviron/2 [130]: Truncating indices...
+DiskStackenviron/2 [130]: Done with changeBasis
+WaveFunctionTransf [130]: OK, pushing option=1 and stage=1
+Truncation [130]: new size of basis=150 transform is 2400 x 150 with 196 blocks
+DmrgSolver [130]: Current virtual memory is 384588 kB maximum was 466804 kB
+addHamiltonianConnection [130]: starting clock
+addHamiltonianConnection [130]: stopping clock
+LeftRightSuper [130]: finite: left-block basis=16, right-block basis=2400 sites=1+5
+SymmetryElectronsSz: Integer target quantum numbers are: 4 8 2 2 
+WaveFunctionTransf [130]: Window open, ready to transform vectors
+Diag. [130]: Setting up Hamiltonian basis of size=38400
+WaveFunctionTransf [130]: Transformation completed 
+Diag. [130]: About to diag. sector with quantum numbs. 4 8 2 2  quantumSector=36716
+Diag. [130]: Early exit due to user requesting (fast) WFT only, (non updated) energy= -16
+Diag. [130]: Ground state energy= -16
+Diag. [130]: Found targetted symmetry sector in partition 264 of size=689
+Diag. [130]: Norm of vector is 1 and quantum numbers are 4 8 2 2 
+Diag. [130]: Number of Sectors found 1
+ApplyOperatorExpression [130]: Steps without advance: 16 site=1 currenTime=0
+ApplyOperatorExpression [130]: Evolving, stage=WFT_NOADVANCE site=1 loopNumber=10 Eg=-16
+ApplyOperatorExpression [130]: I'm calling the WFT now
+VectorWithOffset [130]: populateFromQns succeeded
+WaveFunctionTransf [130]: Transformation completed 
+ApplyOperatorExpression [130]: EnergyForExp was not provided explicitly,  value= -16
+ModelCommon [130]: LinkProductStructSize=4
+KronMatrix [130]: KronMatrix: Hamiltonian sizes=689 689 loadBalance false
+LanczosSolver [130]: Constructing... mat.rank=689 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [130]: lotaMemory_=true
+LanczosSolver [130]: Decomposition done for mat.rank=689 after 67 steps, actual eps=7.63389e-13
+-------------&*&*&* In-situ measurements start
+ALL OPERATORS HAVE BEEN APPLIED
+-------------&*&*&* In-situ measurements end
+ModelCommon [130]: LinkProductStructSize=4
+KronMatrix [130]: KronMatrix: Hamiltonian sizes=689 689 loadBalance false
+TargetingTimeStep [130]: Hamiltonian average at time=0 for target=0 sector=264 <phi(t)|H|phi(t)>=6.66667 <phi(t)|phi(t)>=1 6.66667
+ModelCommon [130]: LinkProductStructSize=4
+KronMatrix [130]: KronMatrix: Hamiltonian sizes=689 689 loadBalance false
+TargetingTimeStep [130]: Hamiltonian average at time=0 for target=1 sector=264 <phi(t)|H|phi(t)>=1.59668 <phi(t)|phi(t)>=0.338325 4.71936
+ModelCommon [130]: LinkProductStructSize=4
+KronMatrix [130]: KronMatrix: Hamiltonian sizes=689 689 loadBalance false
+TargetingTimeStep [130]: Hamiltonian average at time=0 for target=2 sector=264 <phi(t)|H|phi(t)>=0.381954 <phi(t)|phi(t)>=0.125362 3.0468
+ModelCommon [130]: LinkProductStructSize=4
+KronMatrix [130]: KronMatrix: Hamiltonian sizes=689 689 loadBalance false
+TargetingTimeStep [130]: Hamiltonian average at time=0 for target=3 sector=264 <phi(t)|H|phi(t)>=0.0861471 <phi(t)|phi(t)>=0.0500745 1.72038
+ModelCommon [130]: LinkProductStructSize=4
+KronMatrix [130]: KronMatrix: Hamiltonian sizes=689 689 loadBalance false
+TargetingTimeStep [130]: Hamiltonian average at time=0 for target=4 sector=264 <phi(t)|H|phi(t)>=0.0155602 <phi(t)|phi(t)>=0.0211886 0.734367
+TargetingTimeStep [130]: gsWeight=0.1 weights= 0.257143 0.128571 0.128571 0.128571 0.257143 
+TargetingTimeStep [130]: gsNorm=1 norms= 1 1 1 1 1 
+WaveFunctionTransf [130]: Window closed, no more transformations, please
+Truncation [130]: for System
+DensityMatrixLocal [130]: Init partition for all targets
+DensityMatrixLocal [130]: Done with init partition
+Truncation [130]: Not changing kept states=150
+Discarded weight (Truncation error): 2.94633e-15
+Truncation [130]: EntropyVonNeumann= 1.43913; ReyniIndex= 2 EntropyReyni=1.27169
+Truncation [130]: done with entanglement
+Truncation [130]: Truncating transform...
+DiskStackenviron/2 [130]: Truncating indices...
+DiskStackenviron/2 [130]: Done with changeBasis
+WaveFunctionTransf [130]: OK, pushing option=1 and stage=1
+Truncation [130]: new size of basis=150 transform is 2400 x 150 with 196 blocks
+DmrgSolver [130]: Finite loop number 11 with l=2 keptStates=150. 1 more loops to go.
+addHamiltonianConnection [130]: starting clock
+addHamiltonianConnection [130]: stopping clock
+LeftRightSuper [130]: finite: left-block basis=256, right-block basis=2400 sites=2+4
+SymmetryElectronsSz: Integer target quantum numbers are: 4 8 2 2 
+WaveFunctionTransf [130]: Window open, ready to transform vectors
+Diag. [130]: Setting up Hamiltonian basis of size=614400
+WaveFunctionTransfLocal [130]:  We're bouncing on the left, so buckle up!
+WaveFunctionTransf [130]: Transformation completed 
+Diag. [130]: About to diag. sector with quantum numbs. 4 8 2 2  quantumSector=36716
+Diag. [130]: Early exit due to user requesting (fast) WFT only, (non updated) energy= -16
+Diag. [130]: Ground state energy= -16
+Diag. [130]: Found targetted symmetry sector in partition 452 of size=5350
+Diag. [130]: Norm of vector is 1 and quantum numbers are 4 8 2 2 
+Diag. [130]: Number of Sectors found 1
+ApplyOperatorExpression [130]: Steps without advance: 17 site=1 currenTime=0
+ApplyOperatorExpression [130]: Evolving, stage=WFT_NOADVANCE site=1 loopNumber=11 Eg=-16
+ApplyOperatorExpression [130]: I'm calling the WFT now
+VectorWithOffset [130]: populateFromQns succeeded
+WaveFunctionTransfLocal [130]:  We're bouncing on the left, so buckle up!
+WaveFunctionTransf [130]: Transformation completed 
+ApplyOperatorExpression [130]: EnergyForExp was not provided explicitly,  value= -16
+ModelCommon [130]: LinkProductStructSize=4
+KronMatrix [130]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+LanczosSolver [130]: Constructing... mat.rank=5350 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [131]: lotaMemory_=true
+LanczosSolver [131]: Decomposition done for mat.rank=5350 after 80 steps, actual eps=4.57412e-13
+-------------&*&*&* In-situ measurements start
+ALL OPERATORS HAVE BEEN APPLIED
+-------------&*&*&* In-situ measurements end
+ModelCommon [131]: LinkProductStructSize=4
+KronMatrix [131]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [131]: Hamiltonian average at time=0 for target=0 sector=452 <phi(t)|H|phi(t)>=6.66667 <phi(t)|phi(t)>=1 6.66667
+ModelCommon [131]: LinkProductStructSize=4
+KronMatrix [131]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [131]: Hamiltonian average at time=0 for target=1 sector=452 <phi(t)|H|phi(t)>=1.59668 <phi(t)|phi(t)>=0.338325 4.71936
+ModelCommon [131]: LinkProductStructSize=4
+KronMatrix [131]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [131]: Hamiltonian average at time=0 for target=2 sector=452 <phi(t)|H|phi(t)>=0.381954 <phi(t)|phi(t)>=0.125362 3.0468
+ModelCommon [131]: LinkProductStructSize=4
+KronMatrix [131]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [131]: Hamiltonian average at time=0 for target=3 sector=452 <phi(t)|H|phi(t)>=0.0861471 <phi(t)|phi(t)>=0.0500745 1.72038
+ModelCommon [131]: LinkProductStructSize=4
+KronMatrix [131]: KronMatrix: Hamiltonian sizes=5350 5350 loadBalance false
+TargetingTimeStep [131]: Hamiltonian average at time=0 for target=4 sector=452 <phi(t)|H|phi(t)>=0.0155602 <phi(t)|phi(t)>=0.0211886 0.734367
+TargetingTimeStep [131]: gsWeight=0.1 weights= 0.257143 0.128571 0.128571 0.128571 0.257143 
+TargetingTimeStep [131]: gsNorm=1 norms= 1 1 1 1 1 
+WaveFunctionTransf [131]: Window closed, no more transformations, please
+Truncation [131]: for Environment
+DensityMatrixLocal [131]: Init partition for all targets
+DensityMatrixLocal [132]: Done with init partition
+Truncation [132]: Not changing kept states=150
+Discarded weight (Truncation error): 1.73747e-12
+Truncation [132]: EntropyVonNeumann= 1.81606; ReyniIndex= 2 EntropyReyni=1.61065
+Truncation [132]: done with entanglement
+Truncation [132]: Truncating transform...
+DiskStacksystem/2 [132]: Truncating indices...
+DiskStacksystem/2 [132]: Done with changeBasis
+WaveFunctionTransf [132]: OK, pushing option=2 and stage=2
+Truncation [132]: new size of basis=150 transform is 256 x 150 with 81 symmetry blocks
+DmrgSolver [132]: Current virtual memory is 384588 kB maximum was 466804 kB
+addHamiltonianConnection [132]: starting clock
+addHamiltonianConnection [132]: stopping clock
+LeftRightSuper [132]: finite: left-block basis=2400, right-block basis=2400 sites=3+3
+SymmetryElectronsSz: Integer target quantum numbers are: 4 8 2 2 
+WaveFunctionTransf [132]: Window open, ready to transform vectors
+Diag. [132]: Setting up Hamiltonian basis of size=5760000
+WaveFunctionTransfLocal [132]:  Destination sectors 1 Source sectors 1
+WaveFunctionTransf [135]: Transformation completed 
+Diag. [135]: About to diag. sector with quantum numbs. 4 8 2 2  quantumSector=36716
+Diag. [135]: Early exit due to user requesting (fast) WFT only, (non updated) energy= -16
+Diag. [135]: Ground state energy= -16
+Diag. [135]: Found targetted symmetry sector in partition 708 of size=26309
+Diag. [135]: Norm of vector is 1 and quantum numbers are 4 8 2 2 
+Diag. [135]: Number of Sectors found 1
+ApplyOperatorExpression [135]: Steps without advance: 18 site=2 currenTime=0
+ApplyOperatorExpression [135]: Evolving, stage=WFT_NOADVANCE site=2 loopNumber=11 Eg=-16
+ApplyOperatorExpression [135]: I'm calling the WFT now
+VectorWithOffset [135]: populateFromQns succeeded
+WaveFunctionTransfLocal [135]:  Destination sectors 1 Source sectors 1
+WaveFunctionTransf [139]: Transformation completed 
+ApplyOperatorExpression [139]: EnergyForExp was not provided explicitly,  value= -16
+ModelCommon [139]: LinkProductStructSize=4
+KronMatrix [139]: KronMatrix: Hamiltonian sizes=26309 26309 loadBalance false
+LanczosSolver [139]: Constructing... mat.rank=26309 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [142]: lotaMemory_=true
+LanczosSolver [142]: Decomposition done for mat.rank=26309 after 200 steps, actual eps=0
+LanczosSolver [142]: WARNING: Maximum number of steps used. Increasing this maximum is recommended.
+-------------&*&*&* In-situ measurements start
+ALL OPERATORS HAVE BEEN APPLIED
+-------------&*&*&* In-situ measurements end
+ModelCommon [149]: LinkProductStructSize=4
+KronMatrix [149]: KronMatrix: Hamiltonian sizes=26309 26309 loadBalance false
+TargetingTimeStep [149]: Hamiltonian average at time=0 for target=0 sector=708 <phi(t)|H|phi(t)>=6.66667 <phi(t)|phi(t)>=1 6.66667
+ModelCommon [149]: LinkProductStructSize=4
+KronMatrix [149]: KronMatrix: Hamiltonian sizes=26309 26309 loadBalance false
+TargetingTimeStep [149]: Hamiltonian average at time=0 for target=1 sector=708 <phi(t)|H|phi(t)>=1.59668 <phi(t)|phi(t)>=0.338325 4.71936
+ModelCommon [149]: LinkProductStructSize=4
+KronMatrix [149]: KronMatrix: Hamiltonian sizes=26309 26309 loadBalance false
+TargetingTimeStep [149]: Hamiltonian average at time=0 for target=2 sector=708 <phi(t)|H|phi(t)>=0.381954 <phi(t)|phi(t)>=0.125362 3.0468
+ModelCommon [149]: LinkProductStructSize=4
+KronMatrix [149]: KronMatrix: Hamiltonian sizes=26309 26309 loadBalance false
+TargetingTimeStep [149]: Hamiltonian average at time=0 for target=3 sector=708 <phi(t)|H|phi(t)>=0.0861471 <phi(t)|phi(t)>=0.0500745 1.72038
+ModelCommon [149]: LinkProductStructSize=4
+KronMatrix [149]: KronMatrix: Hamiltonian sizes=26309 26309 loadBalance false
+TargetingTimeStep [149]: Hamiltonian average at time=0 for target=4 sector=708 <phi(t)|H|phi(t)>=0.0155602 <phi(t)|phi(t)>=0.0211886 0.734367
+TargetingTimeStep [149]: gsWeight=0.1 weights= 0.257143 0.128571 0.128571 0.128571 0.257143 
+TargetingTimeStep [149]: gsNorm=1 norms= 1 1 1 1 1 
+WaveFunctionTransf [149]: Window closed, no more transformations, please
+Truncation [149]: for Environment
+DensityMatrixLocal [149]: Init partition for all targets
+DensityMatrixLocal [156]: Done with init partition
+Truncation [156]: Not changing kept states=150
+Discarded weight (Truncation error): 3.73904e-10
+Truncation [156]: EntropyVonNeumann= 1.99522; ReyniIndex= 2 EntropyReyni=1.66259
+Truncation [156]: done with entanglement
+Truncation [156]: Truncating transform...
+DiskStacksystem/2 [156]: Truncating indices...
+DiskStacksystem/2 [156]: Done with changeBasis
+WaveFunctionTransf [156]: OK, pushing option=2 and stage=2
+Truncation [156]: new size of basis=150 transform is 2400 x 150 with 224 symmetry blocks
+Checkpoint [156]: Saving pS and pE...
+TargetingTimeStep [156]: Saving state...
+TargetingCommon [156]: Saving state...
+DmrgSolver [156]: Turning off the engine.
+Checkpoint [158]: Writing sys. and env. stacks to disk...
