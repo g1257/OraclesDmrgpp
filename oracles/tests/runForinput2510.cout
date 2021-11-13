@@ -1,0 +1,652 @@
+Copyright (c) 2009-2016-2018, UT-Battelle, LLC
+All rights reserved
+
+[DMRG++, Version 6.01]
+
+---------------------------------------------------------
+THE SOFTWARE IS SUPPLIED BY THE COPYRIGHT HOLDERS AND
+CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE ARE DISCLAIMED.
+
+Please see full open source license included in file LICENSE.
+---------------------------------------------------------
+
+DMRG++ version 6.01 28f86299861952cb4953d8ae023899439589904d +M
+PsimagLite version 3.01 7a6ee8e7543bc68fccaada7fb258aebf7471083b +M
+DMRG++[38;5;124m [features 6.01] [0m[BOOST ]
+Compiled MicroArchitecture is AMD
+Running on MicroArchitecture Intel
+WARNING: Compiled MicroArchitecture is DIFFERENT than Running one
+PsiApp: CmdLine: ./dmrg -f ../inputs/input2510.ain 
+PsiApp::echoBase64: Echo of ../inputs/input2510.ain in base64
+IyNBaW51ciAxLjAKClRvdGFsTnVtYmVyT2ZTaXRlcz04OwpOdW1iZXJPZlRlcm1zPTM7CgpndDA6R2VvbWV0cnlLaW5kPSJjaGFpbiI7Cmd0MDpHZW9tZXRyeU9wdGlvbnM9IkNvbnN0YW50VmFsdWVzIjsKZ3QwOmRpcjA6Q29ubmVjdG9ycz1bMS4wXTsKCmd0MTpHZW9tZXRyeUtpbmQ9ImNoYWluIjsKZ3QxOkdlb21ldHJ5T3B0aW9ucz0iQ29uc3RhbnRWYWx1ZXMiOwpndDE6ZGlyMDpDb25uZWN0b3JzPVsxLjBdOwoKZ3QyOkdlb21ldHJ5S2luZD0iY2hhaW4iOwpndDI6R2VvbWV0cnlPcHRpb25zPSJDb25zdGFudFZhbHVlcyI7Cmd0MjpkaXIwOkNvbm5lY3RvcnM9WzEuMF07CgpNb2RlbD0iU3UzTW9kZWwiOwppbnQgU3UzUmVwcmVzZW50YXRpb25QPTE7CnJlYWwgTWFzcz0xLjQyOwoKU29sdmVyT3B0aW9ucz0idHdvc2l0ZWRtcmciOwpWZXJzaW9uPSJ2ZXJzaW9uIjsKT3V0cHV0RmlsZT0iZGF0YTI1MTAiOwpJbmZpbml0ZUxvb3BLZXB0U3RhdGVzPTYwOwpGaW5pdGVMb29wcz1bWzMsIDEwMCwgMF0sWy02LCAxMDAsIDBdXTsKVGFyZ2V0U3pQbHVzQ29uc3Q9MTI7ClRhcmdldEVsZWN0cm9uc1RvdGFsPTQ7Cgo=
+TargetElectronsTotal=4
+TargetSzPlusConst=12
+FiniteLoops=[Fri Nov 12 18:28:17 2021
+Hostname: localhost.localdomain
+RunID=922337203509231569951
+UnixTimeStart=1636759697
+SizeType=8
+DmrgSolver [0.015]: Turning the engine on
+FiniteLoops printing starts
+3 100 0
+-6 100 0
+FiniteLoops printing ends
+ No explicit targeting found, asumming GroundStateTargeting
+[34mWARNING: No intent found (given your Intent)[0m
+ApplyOperatorExpression [0.022]: Number of target vectors is now 0
+DmrgSolver [0.022]: Infinite-loop: step=0 ( of 3),  size of blk. added=1
+setToProduct [0.022]: starting clock 3x3
+setToProduct [0.022]: stopping clock 
+addHamiltonianConnection [0.022]: starting clock 
+addHamiltonianConnection [0.022]: stopping clock 
+setToProduct [0.023]: starting clock 3x3
+setToProduct [0.023]: stopping clock 
+addHamiltonianConnection [0.023]: starting clock 
+addHamiltonianConnection [0.023]: stopping clock 
+DmrgSolver [0.023]: Growth done.
+LeftRightSuper [0.023]: Infinite: left-block basis=9, right-block basis=9 sites=2+2
+setToProduct [0.023]: starting clock 9x9
+setToProduct [0.023]: stopping clock 
+Diagonalization [0.023]: starting clock
+Diag. [0.023]: Setting up Hamiltonian basis of size=81
+Diag. [0.023]: About to diag. sector with quantumSector=oddElectrons=0 other=2,6,  jmPair=0 0 and numberOfExcited=1
+Engine/TargetingBase.h:323 sectorIndex=0 e=0
+WaveFunctionTransf [0.023]: Yes, I'm awake, but there's nothing heavy to do now
+HamiltonianConnection [0.023]: LinkProductStructSize=8
+HamiltonianConnection [0.023]: PthreadsTheoreticalLimitForThisPart=10
+Diag. [0.023]: I will now diagonalize a matrix of size=6
+InitKronBase [0.023]: ::ctor (for H), denseSparseThreshold= 0.2, useLowerPart= 1
+convertXcYcArrays [0.023]: starting clock
+convertXcYcArrays [0.023]: stopping clock 
+KronMatrix [0.023]: KronMatrix: Hamiltonian sizes=6 6 loadBalance false
+LanczosCore [0.023]: Constructing... mat.rank=6 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [0.023]: lotaMemory_=true
+LanczosCore [0.024]: Decomposition done for mat.rank=6 after 5 steps, actual eps=7.5314e-05
+Diag. [0.024]: Found lowest eigenvalue= 1.27779
+DeltaClock matrixVectorProduct 0.000469
+Diag. [0.024]:  Sector[0]=12 excited=0 sector energy = 1.27779
+Diag. [0.024]: Found targetted symmetry sector in partition 0 of size=6
+Diag. [0.024]: Norm of vector is 1 and quantum numbers are oddElectrons=0 other=2,6,  jmPair=0 0
+Diag. [0.024]: Number of Sectors found 1 for numberOfExcited=1
+NOT ALL OPERATORS APPLIED YET
+Diagonalization [0.024]: stopping clock 
+TruncationChangeBasis [0.024]: starting clock
+DensityMatrixSvdCtor [0.024]: starting clock
+DensityMatrixSvdCtor [0.024]: stopping clock Found 3 groups on left or right
+DensityMatrixSvdDiag [0.024]: starting clock
+DensityMatrixSvdDiag [0.024]: stopping clock 
+Truncation [0.024]: Sum of Singular Values of the Density Matrix: 1
+Truncation [0.024]: Not changing kept states=60
+Truncation [0.024]: Discarded weight (Truncation error): 0
+Operators [0.024]: Operators that were rotated= 5
+WaveFunctionTransf [0.025]: OK, pushing option=EXPAND_SYSTEM and stage=INFINITE
+Truncation [0.025]: new size of basis=9 transform is 9 x 9 with 6 symmetry blocks
+DensityMatrixSvdCtor [0.025]: starting clock
+DensityMatrixSvdCtor [0.025]: stopping clock Found 3 groups on left or right
+DensityMatrixSvdDiag [0.025]: starting clock
+DensityMatrixSvdDiag [0.025]: stopping clock 
+Truncation [0.025]: Sum of Singular Values of the Density Matrix: 1
+Truncation [0.025]: Not changing kept states=60
+Truncation [0.025]: Discarded weight (Truncation error): 0
+Operators [0.025]: Operators that were rotated= 5
+WaveFunctionTransf [0.025]: OK, pushing option=EXPAND_ENVIRON and stage=INFINITE
+Truncation [0.025]: new size of basis=9 transform is 9 x 9 with 6 symmetry blocks
+TruncationChangeBasis [0.025]: stopping clock 
+DmrgSolver [0.025]: Current virtual memory is 110784 kB maximum was 176216 kB
+DmrgSolver [0.025]: Infinite-loop: step=1 ( of 3),  size of blk. added=1
+setToProduct [0.025]: starting clock 9x3
+setToProduct [0.025]: stopping clock 
+addHamiltonianConnection [0.025]: starting clock 
+addHamiltonianConnection [0.025]: stopping clock 
+setToProduct [0.025]: starting clock 3x9
+setToProduct [0.025]: stopping clock 
+addHamiltonianConnection [0.025]: starting clock 
+addHamiltonianConnection [0.026]: stopping clock 
+DmrgSolver [0.026]: Growth done.
+LeftRightSuper [0.026]: Infinite: left-block basis=27, right-block basis=27 sites=3+3
+setToProduct [0.026]: starting clock 27x27
+setToProduct [0.026]: stopping clock 
+Diagonalization [0.026]: starting clock
+Diag. [0.026]: Setting up Hamiltonian basis of size=729
+Diag. [0.026]: About to diag. sector with quantumSector=oddElectrons=0 other=3,9,  jmPair=0 0 and numberOfExcited=1
+WaveFunctionTransf [0.026]: Yes, I'm awake, but there's nothing heavy to do now
+HamiltonianConnection [0.026]: LinkProductStructSize=8
+HamiltonianConnection [0.026]: PthreadsTheoreticalLimitForThisPart=10
+Diag. [0.026]: I will now diagonalize a matrix of size=20
+InitKronBase [0.026]: ::ctor (for H), denseSparseThreshold= 0.2, useLowerPart= 1
+convertXcYcArrays [0.026]: starting clock
+convertXcYcArrays [0.026]: stopping clock 
+KronMatrix [0.026]: KronMatrix: Hamiltonian sizes=20 20 loadBalance false
+LanczosCore [0.026]: Constructing... mat.rank=20 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [0.026]: lotaMemory_=true
+LanczosCore [0.028]: Decomposition done for mat.rank=20 after 16 steps, actual eps=1.24345e-14
+Diag. [0.028]: Found lowest eigenvalue= 1.87976
+DeltaClock matrixVectorProduct 0.001334
+Diag. [0.028]:  Sector[0]=24 excited=0 sector energy = 1.87976
+Diag. [0.028]: Found targetted symmetry sector in partition 0 of size=20
+Diag. [0.028]: Norm of vector is 1 and quantum numbers are oddElectrons=0 other=3,9,  jmPair=0 0
+Diag. [0.028]: Number of Sectors found 1 for numberOfExcited=1
+NOT ALL OPERATORS APPLIED YET
+Diagonalization [0.028]: stopping clock 
+TruncationChangeBasis [0.028]: starting clock
+DensityMatrixSvdCtor [0.028]: starting clock
+DensityMatrixSvdCtor [0.028]: stopping clock Found 4 groups on left or right
+DensityMatrixSvdDiag [0.028]: starting clock
+DensityMatrixSvdDiag [0.028]: stopping clock 
+Truncation [0.028]: Sum of Singular Values of the Density Matrix: 1
+Truncation [0.028]: Not changing kept states=60
+Truncation [0.028]: Discarded weight (Truncation error): 0
+Operators [0.028]: Operators that were rotated= 5
+WaveFunctionTransf [0.028]: OK, pushing option=EXPAND_SYSTEM and stage=INFINITE
+Truncation [0.028]: new size of basis=27 transform is 27 x 27 with 10 symmetry blocks
+DensityMatrixSvdCtor [0.028]: starting clock
+DensityMatrixSvdCtor [0.028]: stopping clock Found 4 groups on left or right
+DensityMatrixSvdDiag [0.028]: starting clock
+DensityMatrixSvdDiag [0.029]: stopping clock 
+Truncation [0.029]: Sum of Singular Values of the Density Matrix: 1
+Truncation [0.029]: Not changing kept states=60
+Truncation [0.029]: Discarded weight (Truncation error): 0
+Operators [0.029]: Operators that were rotated= 5
+WaveFunctionTransf [0.029]: OK, pushing option=EXPAND_ENVIRON and stage=INFINITE
+Truncation [0.029]: new size of basis=27 transform is 27 x 27 with 10 symmetry blocks
+TruncationChangeBasis [0.029]: stopping clock 
+DmrgSolver [0.029]: Current virtual memory is 110876 kB maximum was 176216 kB
+DmrgSolver [0.029]: Infinite-loop: step=2 ( of 3),  size of blk. added=1
+setToProduct [0.029]: starting clock 27x3
+setToProduct [0.029]: stopping clock 
+addHamiltonianConnection [0.029]: starting clock 
+addHamiltonianConnection [0.029]: stopping clock 
+setToProduct [0.029]: starting clock 3x27
+setToProduct [0.029]: stopping clock 
+addHamiltonianConnection [0.029]: starting clock 
+addHamiltonianConnection [0.030]: stopping clock 
+DmrgSolver [0.030]: Growth done.
+LeftRightSuper [0.030]: Infinite: left-block basis=81, right-block basis=81 sites=4+4
+setToProduct [0.030]: starting clock 81x81
+setToProduct [0.030]: stopping clock 
+Diagonalization [0.030]: starting clock
+Diag. [0.030]: Setting up Hamiltonian basis of size=6561
+Diag. [0.030]: About to diag. sector with quantumSector=oddElectrons=0 other=4,12,  jmPair=0 0 and numberOfExcited=1
+WaveFunctionTransf [0.030]: Yes, I'm awake, but there's nothing heavy to do now
+HamiltonianConnection [0.030]: LinkProductStructSize=8
+HamiltonianConnection [0.030]: PthreadsTheoreticalLimitForThisPart=10
+Diag. [0.030]: I will now diagonalize a matrix of size=70
+InitKronBase [0.030]: ::ctor (for H), denseSparseThreshold= 0.2, useLowerPart= 1
+convertXcYcArrays [0.030]: starting clock
+convertXcYcArrays [0.030]: stopping clock 
+KronMatrix [0.030]: KronMatrix: Hamiltonian sizes=70 70 loadBalance false
+LanczosCore [0.030]: Constructing... mat.rank=70 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [0.031]: lotaMemory_=true
+LanczosCore [0.033]: Decomposition done for mat.rank=70 after 25 steps, actual eps=6.97664e-13
+Diag. [0.033]: Found lowest eigenvalue= 2.47223
+DeltaClock matrixVectorProduct 0.002091
+Diag. [0.033]:  Sector[0]=40 excited=0 sector energy = 2.47223
+Diag. [0.033]: Found targetted symmetry sector in partition 0 of size=70
+Diag. [0.033]: Norm of vector is 1 and quantum numbers are oddElectrons=0 other=4,12,  jmPair=0 0
+Diag. [0.033]: Number of Sectors found 1 for numberOfExcited=1
+NOT ALL OPERATORS APPLIED YET
+Diagonalization [0.033]: stopping clock 
+TruncationChangeBasis [0.033]: starting clock
+DensityMatrixSvdCtor [0.033]: starting clock
+DensityMatrixSvdCtor [0.033]: stopping clock Found 5 groups on left or right
+DensityMatrixSvdDiag [0.033]: starting clock
+DensityMatrixSvdDiag [0.034]: stopping clock 
+Truncation [0.034]: Sum of Singular Values of the Density Matrix: 1
+Truncation [0.034]: Not changing kept states=60
+Truncation [0.034]: Discarded weight (Truncation error): 0
+truncateBasis [0.034]: starting clock 81-21
+truncateBasis [0.034]: stopping clock 
+Operators [0.034]: Operators that were rotated= 5
+WaveFunctionTransf [0.034]: OK, pushing option=EXPAND_SYSTEM and stage=INFINITE
+Truncation [0.034]: new size of basis=60 transform is 81 x 60 with 15 symmetry blocks
+DensityMatrixSvdCtor [0.034]: starting clock
+DensityMatrixSvdCtor [0.034]: stopping clock Found 5 groups on left or right
+DensityMatrixSvdDiag [0.034]: starting clock
+DensityMatrixSvdDiag [0.034]: stopping clock 
+Truncation [0.034]: Sum of Singular Values of the Density Matrix: 1
+Truncation [0.034]: Not changing kept states=60
+Truncation [0.034]: Discarded weight (Truncation error): 0
+truncateBasis [0.034]: starting clock 81-21
+truncateBasis [0.034]: stopping clock 
+Operators [0.035]: Operators that were rotated= 5
+WaveFunctionTransf [0.035]: OK, pushing option=EXPAND_ENVIRON and stage=INFINITE
+Truncation [0.035]: new size of basis=60 transform is 81 x 60 with 15 symmetry blocks
+TruncationChangeBasis [0.035]: stopping clock 
+DmrgSolver [0.035]: Current virtual memory is 111244 kB maximum was 176216 kB
+DmrgSolver [0.035]: Infinite dmrg loop has been done!
+DmrgSolver [0.035]: Finite loop number 0 with l=3 keptStates=100. 2 more loops to go.
+setToProduct [0.035]: starting clock 60x3
+setToProduct [0.035]: stopping clock 
+addHamiltonianConnection [0.035]: starting clock 
+addHamiltonianConnection [0.036]: stopping clock 
+LeftRightSuper [0.036]: finite: left-block basis=180, right-block basis=27 sites=5+3
+setToProduct [0.036]: starting clock 180x27
+setToProduct [0.036]: stopping clock 
+Diagonalization [0.036]: starting clock
+WaveFunctionTransf [0.036]: Window open, ready to transform vectors
+Diag. [0.036]: Setting up Hamiltonian basis of size=4860
+Diag. [0.036]: About to diag. sector with quantumSector=oddElectrons=0 other=4,12,  jmPair=0 0 and numberOfExcited=1
+WFT [0.036]: starting clock
+WFT [0.037]: stopping clock 
+WaveFunctionTransf [0.037]: Transformation completed 
+HamiltonianConnection [0.037]: LinkProductStructSize=8
+HamiltonianConnection [0.037]: PthreadsTheoreticalLimitForThisPart=10
+Diag. [0.037]: I will now diagonalize a matrix of size=70
+InitKronBase [0.037]: ::ctor (for H), denseSparseThreshold= 0.2, useLowerPart= 1
+convertXcYcArrays [0.037]: starting clock
+convertXcYcArrays [0.037]: stopping clock 
+KronMatrix [0.037]: KronMatrix: Hamiltonian sizes=70 70 loadBalance false
+LanczosCore [0.037]: Constructing... mat.rank=70 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [0.037]: lotaMemory_=true
+LanczosCore [0.038]: Decomposition done for mat.rank=70 after 4 steps, actual eps=0
+Diag. [0.038]: Found lowest eigenvalue= 2.47223
+DeltaClock matrixVectorProduct 0.000425
+Diag. [0.038]:  Sector[0]=40 excited=0 sector energy = 2.47223
+Diag. [0.038]: Found targetted symmetry sector in partition 0 of size=70
+Diag. [0.038]: Norm of vector is 1 and quantum numbers are oddElectrons=0 other=4,12,  jmPair=0 0
+Diag. [0.038]: Number of Sectors found 1 for numberOfExcited=1
+NOT ALL OPERATORS APPLIED YET
+WaveFunctionTransf [0.038]: Window closed, no more transformations, please
+Diagonalization [0.038]: stopping clock 
+TruncationChangeBasis [0.038]: starting clock
+DensityMatrixSvdCtor [0.038]: starting clock
+DensityMatrixSvdCtor [0.038]: stopping clock Found 4 groups on left or right
+DensityMatrixSvdDiag [0.038]: starting clock
+DensityMatrixSvdDiag [0.038]: stopping clock 
+Truncation [0.039]: Sum of Singular Values of the Density Matrix: 1
+Truncation [0.039]: Not changing kept states=100
+Truncation [0.039]: Discarded weight (Truncation error): 0
+truncateBasis [0.039]: starting clock 180-80
+truncateBasis [0.039]: stopping clock 
+Operators [0.039]: Operators that were rotated= 5
+WaveFunctionTransf [0.039]: OK, pushing option=EXPAND_SYSTEM and stage=EXPAND_SYSTEM
+Truncation [0.039]: new size of basis=100 transform is 180 x 100 with 21 symmetry blocks
+TruncationChangeBasis [0.039]: stopping clock 
+DmrgSolver [0.039]: Current virtual memory is 111392 kB maximum was 176216 kB
+setToProduct [0.039]: starting clock 100x3
+setToProduct [0.039]: stopping clock 
+addHamiltonianConnection [0.040]: starting clock 
+addHamiltonianConnection [0.041]: stopping clock 
+LeftRightSuper [0.041]: finite: left-block basis=300, right-block basis=9 sites=6+2
+setToProduct [0.041]: starting clock 300x9
+setToProduct [0.041]: stopping clock 
+Diagonalization [0.041]: starting clock
+WaveFunctionTransf [0.041]: Window open, ready to transform vectors
+Diag. [0.041]: Setting up Hamiltonian basis of size=2700
+Diag. [0.041]: About to diag. sector with quantumSector=oddElectrons=0 other=4,12,  jmPair=0 0 and numberOfExcited=1
+WFT [0.041]: starting clock
+WFT [0.042]: stopping clock 
+WaveFunctionTransf [0.042]: Transformation completed 
+HamiltonianConnection [0.042]: LinkProductStructSize=8
+HamiltonianConnection [0.042]: PthreadsTheoreticalLimitForThisPart=10
+Diag. [0.042]: I will now diagonalize a matrix of size=24
+InitKronBase [0.042]: ::ctor (for H), denseSparseThreshold= 0.2, useLowerPart= 1
+convertXcYcArrays [0.042]: starting clock
+convertXcYcArrays [0.042]: stopping clock 
+KronMatrix [0.042]: KronMatrix: Hamiltonian sizes=24 24 loadBalance false
+LanczosCore [0.042]: Constructing... mat.rank=24 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [0.042]: lotaMemory_=true
+LanczosCore [0.043]: Decomposition done for mat.rank=24 after 4 steps, actual eps=0
+Diag. [0.043]: Found lowest eigenvalue= 2.47223
+DeltaClock matrixVectorProduct 0.000397
+Diag. [0.043]:  Sector[0]=34 excited=0 sector energy = 2.47223
+Diag. [0.043]: Found targetted symmetry sector in partition 0 of size=24
+Diag. [0.043]: Norm of vector is 1 and quantum numbers are oddElectrons=0 other=4,12,  jmPair=0 0
+Diag. [0.043]: Number of Sectors found 1 for numberOfExcited=1
+NOT ALL OPERATORS APPLIED YET
+WaveFunctionTransf [0.043]: Window closed, no more transformations, please
+Diagonalization [0.043]: stopping clock 
+TruncationChangeBasis [0.043]: starting clock
+DensityMatrixSvdCtor [0.043]: starting clock
+DensityMatrixSvdCtor [0.043]: stopping clock Found 3 groups on left or right
+DensityMatrixSvdDiag [0.043]: starting clock
+DensityMatrixSvdDiag [0.044]: stopping clock 
+Truncation [0.044]: Sum of Singular Values of the Density Matrix: 1
+Truncation [0.044]: Not changing kept states=100
+Truncation [0.044]: Discarded weight (Truncation error): 0
+truncateBasis [0.044]: starting clock 300-200
+truncateBasis [0.044]: stopping clock 
+Operators [0.045]: Operators that were rotated= 5
+WaveFunctionTransf [0.045]: OK, pushing option=EXPAND_SYSTEM and stage=EXPAND_SYSTEM
+Truncation [0.045]: new size of basis=100 transform is 300 x 100 with 24 symmetry blocks
+TruncationChangeBasis [0.045]: stopping clock 
+DmrgSolver [0.046]: Current virtual memory is 112088 kB maximum was 176216 kB
+setToProduct [0.046]: starting clock 100x3
+setToProduct [0.046]: stopping clock 
+addHamiltonianConnection [0.047]: starting clock 
+addHamiltonianConnection [0.048]: stopping clock 
+LeftRightSuper [0.048]: finite: left-block basis=300, right-block basis=3 sites=7+1
+setToProduct [0.048]: starting clock 300x3
+setToProduct [0.048]: stopping clock 
+Diagonalization [0.048]: starting clock
+WaveFunctionTransf [0.048]: Window open, ready to transform vectors
+Diag. [0.048]: Setting up Hamiltonian basis of size=900
+Diag. [0.048]: About to diag. sector with quantumSector=oddElectrons=0 other=4,12,  jmPair=0 0 and numberOfExcited=1
+WFT [0.048]: starting clock
+WFT [0.048]: stopping clock 
+WaveFunctionTransf [0.048]: Transformation completed 
+HamiltonianConnection [0.048]: LinkProductStructSize=8
+HamiltonianConnection [0.048]: PthreadsTheoreticalLimitForThisPart=10
+Diag. [0.048]: I will now diagonalize a matrix of size=6
+InitKronBase [0.048]: ::ctor (for H), denseSparseThreshold= 0.2, useLowerPart= 1
+convertXcYcArrays [0.048]: starting clock
+convertXcYcArrays [0.048]: stopping clock 
+KronMatrix [0.048]: KronMatrix: Hamiltonian sizes=6 6 loadBalance false
+LanczosCore [0.049]: Constructing... mat.rank=6 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [0.049]: lotaMemory_=true
+LanczosCore [0.049]: Decomposition done for mat.rank=6 after 4 steps, actual eps=0
+Diag. [0.049]: Found lowest eigenvalue= 2.47223
+DeltaClock matrixVectorProduct 0.000362
+Diag. [0.049]:  Sector[0]=20 excited=0 sector energy = 2.47223
+Diag. [0.049]: Found targetted symmetry sector in partition 0 of size=6
+Diag. [0.049]: Norm of vector is 1 and quantum numbers are oddElectrons=0 other=4,12,  jmPair=0 0
+Diag. [0.049]: Number of Sectors found 1 for numberOfExcited=1
+NOT ALL OPERATORS APPLIED YET
+NOT ALL OPERATORS APPLIED YET
+WaveFunctionTransf [0.049]: Window closed, no more transformations, please
+Diagonalization [0.049]: stopping clock 
+TruncationChangeBasis [0.049]: starting clock
+DensityMatrixSvdCtor [0.049]: starting clock
+DensityMatrixSvdCtor [0.049]: stopping clock Found 2 groups on left or right
+DensityMatrixSvdDiag [0.049]: starting clock
+DensityMatrixSvdDiag [0.050]: stopping clock 
+Truncation [0.050]: Sum of Singular Values of the Density Matrix: 1
+Truncation [0.050]: Not changing kept states=100
+Truncation [0.050]: Discarded weight (Truncation error): 0
+truncateBasis [0.050]: starting clock 300-200
+truncateBasis [0.050]: stopping clock 
+Operators [0.051]: Operators that were rotated= 5
+WaveFunctionTransf [0.052]: OK, pushing option=EXPAND_SYSTEM and stage=EXPAND_SYSTEM
+Truncation [0.052]: new size of basis=100 transform is 300 x 100 with 17 symmetry blocks
+TruncationChangeBasis [0.052]: stopping clock 
+DmrgSolver [0.052]: Finite loop number 1 with l=-6 keptStates=100. 1 more loops to go.
+setToProduct [0.052]: starting clock 3x3
+setToProduct [0.052]: stopping clock 
+addHamiltonianConnection [0.052]: starting clock 
+addHamiltonianConnection [0.052]: stopping clock 
+LeftRightSuper [0.052]: finite: left-block basis=300, right-block basis=9 sites=6+2
+setToProduct [0.052]: starting clock 300x9
+setToProduct [0.052]: stopping clock 
+Diagonalization [0.052]: starting clock
+WaveFunctionTransf [0.052]: Window open, ready to transform vectors
+Diag. [0.052]: Setting up Hamiltonian basis of size=2700
+Diag. [0.052]: About to diag. sector with quantumSector=oddElectrons=0 other=4,12,  jmPair=0 0 and numberOfExcited=1
+WFT [0.052]: starting clock
+WFT [0.052]: stopping clock 
+WaveFunctionTransf [0.052]: Transformation completed 
+HamiltonianConnection [0.052]: LinkProductStructSize=8
+HamiltonianConnection [0.052]: PthreadsTheoreticalLimitForThisPart=10
+Diag. [0.053]: I will now diagonalize a matrix of size=24
+InitKronBase [0.053]: ::ctor (for H), denseSparseThreshold= 0.2, useLowerPart= 1
+convertXcYcArrays [0.053]: starting clock
+convertXcYcArrays [0.053]: stopping clock 
+KronMatrix [0.053]: KronMatrix: Hamiltonian sizes=24 24 loadBalance false
+LanczosCore [0.053]: Constructing... mat.rank=24 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [0.053]: lotaMemory_=true
+LanczosCore [0.053]: Decomposition done for mat.rank=24 after 4 steps, actual eps=0
+Diag. [0.053]: Found lowest eigenvalue= 2.47223
+DeltaClock matrixVectorProduct 0.000380
+Diag. [0.053]:  Sector[0]=34 excited=0 sector energy = 2.47223
+Diag. [0.053]: Found targetted symmetry sector in partition 0 of size=24
+Diag. [0.053]: Norm of vector is 1 and quantum numbers are oddElectrons=0 other=4,12,  jmPair=0 0
+Diag. [0.053]: Number of Sectors found 1 for numberOfExcited=1
+NOT ALL OPERATORS APPLIED YET
+WaveFunctionTransf [0.053]: Window closed, no more transformations, please
+Diagonalization [0.053]: stopping clock 
+TruncationChangeBasis [0.054]: starting clock
+DensityMatrixSvdCtor [0.054]: starting clock
+DensityMatrixSvdCtor [0.054]: stopping clock Found 3 groups on left or right
+DensityMatrixSvdDiag [0.054]: starting clock
+DensityMatrixSvdDiag [0.054]: stopping clock 
+Truncation [0.054]: Sum of Singular Values of the Density Matrix: 1
+Truncation [0.054]: Not changing kept states=100
+Truncation [0.054]: Discarded weight (Truncation error): 0
+Operators [0.054]: Operators that were rotated= 5
+WaveFunctionTransf [0.054]: OK, pushing option=EXPAND_ENVIRON and stage=EXPAND_ENVIRON
+Truncation [0.054]: new size of basis=9 transform is 9 x 9 with 6 symmetry blocks
+TruncationChangeBasis [0.054]: stopping clock 
+DmrgSolver [0.054]: Current virtual memory is 113044 kB maximum was 176216 kB
+setToProduct [0.054]: starting clock 3x9
+setToProduct [0.054]: stopping clock 
+addHamiltonianConnection [0.054]: starting clock 
+addHamiltonianConnection [0.055]: stopping clock 
+LeftRightSuper [0.055]: finite: left-block basis=180, right-block basis=27 sites=5+3
+setToProduct [0.055]: starting clock 180x27
+setToProduct [0.055]: stopping clock 
+Diagonalization [0.055]: starting clock
+WaveFunctionTransf [0.055]: Window open, ready to transform vectors
+Diag. [0.055]: Setting up Hamiltonian basis of size=4860
+Diag. [0.055]: About to diag. sector with quantumSector=oddElectrons=0 other=4,12,  jmPair=0 0 and numberOfExcited=1
+WFT [0.055]: starting clock
+WFT [0.056]: stopping clock 
+WaveFunctionTransf [0.056]: Transformation completed 
+HamiltonianConnection [0.056]: LinkProductStructSize=8
+HamiltonianConnection [0.056]: PthreadsTheoreticalLimitForThisPart=10
+Diag. [0.056]: I will now diagonalize a matrix of size=70
+InitKronBase [0.056]: ::ctor (for H), denseSparseThreshold= 0.2, useLowerPart= 1
+convertXcYcArrays [0.056]: starting clock
+convertXcYcArrays [0.056]: stopping clock 
+KronMatrix [0.056]: KronMatrix: Hamiltonian sizes=70 70 loadBalance false
+LanczosCore [0.056]: Constructing... mat.rank=70 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [0.056]: lotaMemory_=true
+LanczosCore [0.056]: Decomposition done for mat.rank=70 after 4 steps, actual eps=0
+Diag. [0.056]: Found lowest eigenvalue= 2.47223
+DeltaClock matrixVectorProduct 0.000381
+Diag. [0.057]:  Sector[0]=40 excited=0 sector energy = 2.47223
+Diag. [0.057]: Found targetted symmetry sector in partition 0 of size=70
+Diag. [0.057]: Norm of vector is 1 and quantum numbers are oddElectrons=0 other=4,12,  jmPair=0 0
+Diag. [0.057]: Number of Sectors found 1 for numberOfExcited=1
+NOT ALL OPERATORS APPLIED YET
+WaveFunctionTransf [0.057]: Window closed, no more transformations, please
+Diagonalization [0.057]: stopping clock 
+TruncationChangeBasis [0.057]: starting clock
+DensityMatrixSvdCtor [0.057]: starting clock
+DensityMatrixSvdCtor [0.057]: stopping clock Found 4 groups on left or right
+DensityMatrixSvdDiag [0.057]: starting clock
+DensityMatrixSvdDiag [0.057]: stopping clock 
+Truncation [0.057]: Sum of Singular Values of the Density Matrix: 1
+Truncation [0.057]: Not changing kept states=100
+Truncation [0.057]: Discarded weight (Truncation error): 0
+Operators [0.057]: Operators that were rotated= 5
+WaveFunctionTransf [0.057]: OK, pushing option=EXPAND_ENVIRON and stage=EXPAND_ENVIRON
+Truncation [0.057]: new size of basis=27 transform is 27 x 27 with 10 symmetry blocks
+TruncationChangeBasis [0.057]: stopping clock 
+DmrgSolver [0.057]: Current virtual memory is 113044 kB maximum was 176216 kB
+setToProduct [0.057]: starting clock 3x27
+setToProduct [0.058]: stopping clock 
+addHamiltonianConnection [0.058]: starting clock 
+addHamiltonianConnection [0.058]: stopping clock 
+LeftRightSuper [0.058]: finite: left-block basis=81, right-block basis=81 sites=4+4
+setToProduct [0.058]: starting clock 81x81
+setToProduct [0.058]: stopping clock 
+Diagonalization [0.058]: starting clock
+WaveFunctionTransf [0.058]: Window open, ready to transform vectors
+Diag. [0.058]: Setting up Hamiltonian basis of size=6561
+Diag. [0.058]: About to diag. sector with quantumSector=oddElectrons=0 other=4,12,  jmPair=0 0 and numberOfExcited=1
+WFT [0.058]: starting clock
+WFT [0.059]: stopping clock 
+WaveFunctionTransf [0.059]: Transformation completed 
+HamiltonianConnection [0.059]: LinkProductStructSize=8
+HamiltonianConnection [0.059]: PthreadsTheoreticalLimitForThisPart=10
+Diag. [0.059]: I will now diagonalize a matrix of size=70
+InitKronBase [0.059]: ::ctor (for H), denseSparseThreshold= 0.2, useLowerPart= 1
+convertXcYcArrays [0.059]: starting clock
+convertXcYcArrays [0.059]: stopping clock 
+KronMatrix [0.059]: KronMatrix: Hamiltonian sizes=70 70 loadBalance false
+LanczosCore [0.059]: Constructing... mat.rank=70 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [0.059]: lotaMemory_=true
+LanczosCore [0.060]: Decomposition done for mat.rank=70 after 4 steps, actual eps=0
+Diag. [0.060]: Found lowest eigenvalue= 2.47223
+DeltaClock matrixVectorProduct 0.000376
+Diag. [0.060]:  Sector[0]=40 excited=0 sector energy = 2.47223
+Diag. [0.060]: Found targetted symmetry sector in partition 0 of size=70
+Diag. [0.060]: Norm of vector is 1 and quantum numbers are oddElectrons=0 other=4,12,  jmPair=0 0
+Diag. [0.060]: Number of Sectors found 1 for numberOfExcited=1
+NOT ALL OPERATORS APPLIED YET
+WaveFunctionTransf [0.060]: Window closed, no more transformations, please
+Diagonalization [0.060]: stopping clock 
+TruncationChangeBasis [0.060]: starting clock
+DensityMatrixSvdCtor [0.060]: starting clock
+DensityMatrixSvdCtor [0.060]: stopping clock Found 5 groups on left or right
+DensityMatrixSvdDiag [0.060]: starting clock
+DensityMatrixSvdDiag [0.060]: stopping clock 
+Truncation [0.060]: Sum of Singular Values of the Density Matrix: 1
+Truncation [0.061]: Not changing kept states=100
+Truncation [0.061]: Discarded weight (Truncation error): 0
+Operators [0.061]: Operators that were rotated= 5
+WaveFunctionTransf [0.061]: OK, pushing option=EXPAND_ENVIRON and stage=EXPAND_ENVIRON
+Truncation [0.061]: new size of basis=81 transform is 81 x 81 with 15 symmetry blocks
+TruncationChangeBasis [0.061]: stopping clock 
+DmrgSolver [0.061]: Current virtual memory is 113044 kB maximum was 176216 kB
+setToProduct [0.061]: starting clock 3x81
+setToProduct [0.061]: stopping clock 
+addHamiltonianConnection [0.061]: starting clock 
+addHamiltonianConnection [0.062]: stopping clock 
+LeftRightSuper [0.062]: finite: left-block basis=27, right-block basis=243 sites=3+5
+setToProduct [0.062]: starting clock 27x243
+setToProduct [0.062]: stopping clock 
+Diagonalization [0.062]: starting clock
+WaveFunctionTransf [0.062]: Window open, ready to transform vectors
+Diag. [0.062]: Setting up Hamiltonian basis of size=6561
+Diag. [0.062]: About to diag. sector with quantumSector=oddElectrons=0 other=4,12,  jmPair=0 0 and numberOfExcited=1
+WFT [0.062]: starting clock
+WFT [0.063]: stopping clock 
+WaveFunctionTransf [0.063]: Transformation completed 
+HamiltonianConnection [0.063]: LinkProductStructSize=8
+HamiltonianConnection [0.063]: PthreadsTheoreticalLimitForThisPart=10
+Diag. [0.063]: I will now diagonalize a matrix of size=70
+InitKronBase [0.063]: ::ctor (for H), denseSparseThreshold= 0.2, useLowerPart= 1
+convertXcYcArrays [0.063]: starting clock
+convertXcYcArrays [0.063]: stopping clock 
+KronMatrix [0.063]: KronMatrix: Hamiltonian sizes=70 70 loadBalance false
+LanczosCore [0.063]: Constructing... mat.rank=70 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [0.063]: lotaMemory_=true
+LanczosCore [0.064]: Decomposition done for mat.rank=70 after 4 steps, actual eps=0
+Diag. [0.064]: Found lowest eigenvalue= 2.47223
+DeltaClock matrixVectorProduct 0.000391
+Diag. [0.064]:  Sector[0]=40 excited=0 sector energy = 2.47223
+Diag. [0.064]: Found targetted symmetry sector in partition 0 of size=70
+Diag. [0.064]: Norm of vector is 1 and quantum numbers are oddElectrons=0 other=4,12,  jmPair=0 0
+Diag. [0.064]: Number of Sectors found 1 for numberOfExcited=1
+NOT ALL OPERATORS APPLIED YET
+WaveFunctionTransf [0.064]: Window closed, no more transformations, please
+Diagonalization [0.064]: stopping clock 
+TruncationChangeBasis [0.064]: starting clock
+DensityMatrixSvdCtor [0.064]: starting clock
+DensityMatrixSvdCtor [0.064]: stopping clock Found 4 groups on left or right
+DensityMatrixSvdDiag [0.064]: starting clock
+DensityMatrixSvdDiag [0.064]: stopping clock 
+Truncation [0.064]: Sum of Singular Values of the Density Matrix: 1
+Truncation [0.064]: Not changing kept states=100
+Truncation [0.064]: Discarded weight (Truncation error): 0
+truncateBasis [0.065]: starting clock 243-143
+truncateBasis [0.065]: stopping clock 
+Operators [0.065]: Operators that were rotated= 5
+WaveFunctionTransf [0.065]: OK, pushing option=EXPAND_ENVIRON and stage=EXPAND_ENVIRON
+Truncation [0.065]: new size of basis=100 transform is 243 x 100 with 21 symmetry blocks
+TruncationChangeBasis [0.065]: stopping clock 
+DmrgSolver [0.065]: Current virtual memory is 113044 kB maximum was 176216 kB
+setToProduct [0.065]: starting clock 3x100
+setToProduct [0.065]: stopping clock 
+addHamiltonianConnection [0.066]: starting clock 
+addHamiltonianConnection [0.066]: stopping clock 
+LeftRightSuper [0.066]: finite: left-block basis=9, right-block basis=300 sites=2+6
+setToProduct [0.066]: starting clock 9x300
+setToProduct [0.067]: stopping clock 
+Diagonalization [0.067]: starting clock
+WaveFunctionTransf [0.067]: Window open, ready to transform vectors
+Diag. [0.067]: Setting up Hamiltonian basis of size=2700
+Diag. [0.067]: About to diag. sector with quantumSector=oddElectrons=0 other=4,12,  jmPair=0 0 and numberOfExcited=1
+WFT [0.067]: starting clock
+WFT [0.067]: stopping clock 
+WaveFunctionTransf [0.067]: Transformation completed 
+HamiltonianConnection [0.067]: LinkProductStructSize=8
+HamiltonianConnection [0.067]: PthreadsTheoreticalLimitForThisPart=10
+Diag. [0.067]: I will now diagonalize a matrix of size=20
+InitKronBase [0.067]: ::ctor (for H), denseSparseThreshold= 0.2, useLowerPart= 1
+convertXcYcArrays [0.067]: starting clock
+convertXcYcArrays [0.067]: stopping clock 
+KronMatrix [0.067]: KronMatrix: Hamiltonian sizes=20 20 loadBalance false
+LanczosCore [0.068]: Constructing... mat.rank=20 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [0.068]: lotaMemory_=true
+LanczosCore [0.068]: Decomposition done for mat.rank=20 after 4 steps, actual eps=0
+Diag. [0.068]: Found lowest eigenvalue= 2.47223
+DeltaClock matrixVectorProduct 0.000344
+Diag. [0.068]:  Sector[0]=33 excited=0 sector energy = 2.47223
+Diag. [0.068]: Found targetted symmetry sector in partition 0 of size=20
+Diag. [0.068]: Norm of vector is 1 and quantum numbers are oddElectrons=0 other=4,12,  jmPair=0 0
+Diag. [0.068]: Number of Sectors found 1 for numberOfExcited=1
+NOT ALL OPERATORS APPLIED YET
+WaveFunctionTransf [0.068]: Window closed, no more transformations, please
+Diagonalization [0.068]: stopping clock 
+TruncationChangeBasis [0.069]: starting clock
+DensityMatrixSvdCtor [0.069]: starting clock
+DensityMatrixSvdCtor [0.069]: stopping clock Found 3 groups on left or right
+DensityMatrixSvdDiag [0.069]: starting clock
+DensityMatrixSvdDiag [0.069]: stopping clock 
+Truncation [0.069]: Sum of Singular Values of the Density Matrix: 1
+Truncation [0.069]: Not changing kept states=100
+Truncation [0.069]: Discarded weight (Truncation error): 0
+truncateBasis [0.069]: starting clock 300-200
+truncateBasis [0.069]: stopping clock 
+Operators [0.070]: Operators that were rotated= 5
+WaveFunctionTransf [0.070]: OK, pushing option=EXPAND_ENVIRON and stage=EXPAND_ENVIRON
+Truncation [0.070]: new size of basis=100 transform is 300 x 100 with 21 symmetry blocks
+TruncationChangeBasis [0.070]: stopping clock 
+DmrgSolver [0.070]: Current virtual memory is 113044 kB maximum was 176216 kB
+setToProduct [0.070]: starting clock 3x100
+setToProduct [0.071]: stopping clock 
+addHamiltonianConnection [0.071]: starting clock 
+addHamiltonianConnection [0.072]: stopping clock 
+LeftRightSuper [0.072]: finite: left-block basis=3, right-block basis=300 sites=1+7
+setToProduct [0.072]: starting clock 3x300
+setToProduct [0.072]: stopping clock 
+Diagonalization [0.072]: starting clock
+WaveFunctionTransf [0.072]: Window open, ready to transform vectors
+Diag. [0.072]: Setting up Hamiltonian basis of size=900
+Diag. [0.072]: About to diag. sector with quantumSector=oddElectrons=0 other=4,12,  jmPair=0 0 and numberOfExcited=1
+WFT [0.072]: starting clock
+WFT [0.072]: stopping clock 
+WaveFunctionTransf [0.072]: Transformation completed 
+HamiltonianConnection [0.072]: LinkProductStructSize=8
+HamiltonianConnection [0.072]: PthreadsTheoreticalLimitForThisPart=10
+Diag. [0.072]: I will now diagonalize a matrix of size=6
+InitKronBase [0.072]: ::ctor (for H), denseSparseThreshold= 0.2, useLowerPart= 1
+convertXcYcArrays [0.072]: starting clock
+convertXcYcArrays [0.072]: stopping clock 
+KronMatrix [0.072]: KronMatrix: Hamiltonian sizes=6 6 loadBalance false
+LanczosCore [0.073]: Constructing... mat.rank=6 maximum steps=200 maximum eps=1e-12 requested
+LanczosVectors [0.073]: lotaMemory_=true
+LanczosCore [0.073]: Decomposition done for mat.rank=6 after 4 steps, actual eps=0
+Diag. [0.073]: Found lowest eigenvalue= 2.47223
+DeltaClock matrixVectorProduct 0.000340
+Diag. [0.073]:  Sector[0]=24 excited=0 sector energy = 2.47223
+Diag. [0.073]: Found targetted symmetry sector in partition 0 of size=6
+Diag. [0.073]: Norm of vector is 1 and quantum numbers are oddElectrons=0 other=4,12,  jmPair=0 0
+Diag. [0.073]: Number of Sectors found 1 for numberOfExcited=1
+NOT ALL OPERATORS APPLIED YET
+NOT ALL OPERATORS APPLIED YET
+WaveFunctionTransf [0.073]: Window closed, no more transformations, please
+Diagonalization [0.073]: stopping clock 
+TruncationChangeBasis [0.073]: starting clock
+DensityMatrixSvdCtor [0.073]: starting clock
+DensityMatrixSvdCtor [0.073]: stopping clock Found 2 groups on left or right
+DensityMatrixSvdDiag [0.074]: starting clock
+DensityMatrixSvdDiag [0.074]: stopping clock 
+Truncation [0.074]: Sum of Singular Values of the Density Matrix: 1
+Truncation [0.074]: Not changing kept states=100
+Truncation [0.074]: Discarded weight (Truncation error): 0
+truncateBasis [0.074]: starting clock 300-200
+truncateBasis [0.074]: stopping clock 
+Operators [0.075]: Operators that were rotated= 5
+WaveFunctionTransf [0.075]: OK, pushing option=EXPAND_ENVIRON and stage=EXPAND_ENVIRON
+Truncation [0.075]: new size of basis=100 transform is 300 x 100 with 20 symmetry blocks
+TruncationChangeBasis [0.075]: stopping clock 
+Checkpoint [0.075]: Saving pS and pE...
+TargetingCommon [0.106]: Saving state...
+DmrgSolver [0.109]: Turning off the engine.
+Checkpoint [0.154]: Writing sys. and env. stacks to disk...
+Checkpoint [0.258]: Written sys. and env. stacks to disk.
